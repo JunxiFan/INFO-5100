@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package Interface;
+import people.Resume;
 
 /**
  *
@@ -14,8 +15,10 @@ public class MainJFrame extends javax.swing.JFrame {
     /**
      * Creates new form MainJFrame
      */
+    private Resume resume;
     public MainJFrame() {
         initComponents();
+        resume=new Resume();
     }
 
     /**
@@ -43,6 +46,11 @@ public class MainJFrame extends javax.swing.JFrame {
         });
 
         viewBtn.setText("View");
+        viewBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                viewBtnActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout controlJPanelLayout = new javax.swing.GroupLayout(controlJPanel);
         controlJPanel.setLayout(controlJPanelLayout);
@@ -62,7 +70,7 @@ public class MainJFrame extends javax.swing.JFrame {
                 .addComponent(createBtn)
                 .addGap(61, 61, 61)
                 .addComponent(viewBtn)
-                .addContainerGap(115, Short.MAX_VALUE))
+                .addContainerGap(639, Short.MAX_VALUE))
         );
 
         splitPane.setLeftComponent(controlJPanel);
@@ -71,11 +79,11 @@ public class MainJFrame extends javax.swing.JFrame {
         displayJPanel.setLayout(displayJPanelLayout);
         displayJPanelLayout.setHorizontalGroup(
             displayJPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 293, Short.MAX_VALUE)
+            .addGap(0, 455, Short.MAX_VALUE)
         );
         displayJPanelLayout.setVerticalGroup(
             displayJPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 298, Short.MAX_VALUE)
+            .addGap(0, 822, Short.MAX_VALUE)
         );
 
         splitPane.setRightComponent(displayJPanel);
@@ -87,7 +95,15 @@ public class MainJFrame extends javax.swing.JFrame {
 
     private void createBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_createBtnActionPerformed
         // TODO add your handling code here:
+        CreateJPanel createJPanel=new CreateJPanel(resume);
+        splitPane.setRightComponent(createJPanel);
     }//GEN-LAST:event_createBtnActionPerformed
+
+    private void viewBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_viewBtnActionPerformed
+        // TODO add your handling code here:
+       ViewJPanel viewJPanel=new ViewJPanel(resume);
+        splitPane.setRightComponent(viewJPanel);
+    }//GEN-LAST:event_viewBtnActionPerformed
 
     /**
      * @param args the command line arguments
