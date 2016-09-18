@@ -22,8 +22,8 @@ public class ViewJPanel extends javax.swing.JPanel {
     
     private void displayProduct(Product product)   //???7
     {
-        String productName=product.getName();
-        nameTxtField.setText(productName);
+       
+        nameTxtField.setText("");
         
         String productPrice=product.getPrice();
         priceTextField.setText(productPrice);
