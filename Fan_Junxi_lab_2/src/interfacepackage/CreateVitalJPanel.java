@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Interface;
+package interfacepackage;
 
-import Business.VitalSignHistory;
-import Business.VitalSigns;
+import businesspackage.VitalSignHistory;
+import businesspackage.VitalSigns;
 import javax.swing.JOptionPane;
 
 /**
