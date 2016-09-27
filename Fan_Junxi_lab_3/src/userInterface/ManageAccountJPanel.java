@@ -30,7 +30,7 @@ public class ManageAccountJPanel extends javax.swing.JPanel {
         this.accountDirectory = accountDirectory;       
         populateTable();
     }
-    private void populateTable() {
+    void populateTable() {
        DefaultTableModel dtm = (DefaultTableModel)accountsTbl.getModel(); //初始化dtm
        dtm.setRowCount(0); //将行数设为0
        

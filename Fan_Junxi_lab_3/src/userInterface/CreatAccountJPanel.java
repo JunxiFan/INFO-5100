@@ -139,18 +139,23 @@ public class CreatAccountJPanel extends javax.swing.JPanel {
 
     private void createBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_createBtnActionPerformed
         // TODO add your handling code here:
-        String rountingNum = rountingNumTxt.getText();
-        String accountNum = accountNumTxt.getText();
-        String bankName = bankNameTxt.getText();
-        int balance = Integer.parseInt(balanceTxt.getText());
+        try{
+            String rountingNum = rountingNumTxt.getText();
+            String accountNum = accountNumTxt.getText();
+            String bankName = bankNameTxt.getText();
+            int balance = Integer.parseInt(balanceTxt.getText());
         
-        Account account = accountDirectory.addAccount();
-        account.setRoutingNumber(rountingNum);
-        account.setAccountNumber(accountNum);
-        account.setBankName(bankName);
-        account.setBalance(balance);
+            Account account = accountDirectory.addAccount();
+            account.setRoutingNumber(rountingNum);
+            account.setAccountNumber(accountNum);
+            account.setBankName(bankName);
+            account.setBalance(balance);
         
         JOptionPane.showMessageDialog(null, "Account Created!");
+        }
+        catch (NumberFormatException nfe){
+            JOptionPane.showMessageDialog(null, "Please enter correct format.");
+        }
     }//GEN-LAST:event_createBtnActionPerformed
 
     private void backBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_backBtnActionPerformed

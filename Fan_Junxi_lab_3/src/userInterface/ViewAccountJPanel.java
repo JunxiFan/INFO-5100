@@ -8,6 +8,7 @@ package userInterface;
 import business.Account;
 import business.AccountDirectory;
 import java.awt.CardLayout;
+import java.awt.Component;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
@@ -152,6 +153,13 @@ public class ViewAccountJPanel extends javax.swing.JPanel {
     private void backBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_backBtnActionPerformed
         // TODO add your handling code here:
         userProcessContainer.remove(this);
+        Component[] componentArray = userProcessContainer.getComponents();
+        Component component = componentArray[componentArray.length-1];
+        ManageAccountJPanel manageAccountJPanel = (ManageAccountJPanel)component;
+        //获取cardlayout的上一个JPanel
+        
+        manageAccountJPanel.populateTable();
+        //在array中更新数据
         CardLayout layout = (CardLayout) userProcessContainer.getLayout();
         layout.previous(userProcessContainer);
     }//GEN-LAST:event_backBtnActionPerformed
