@@ -34,6 +34,7 @@ public class CustomerSearchJPanel extends javax.swing.JPanel {
 
     }
 
+
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -51,6 +52,8 @@ public class CustomerSearchJPanel extends javax.swing.JPanel {
         searchVendorTxt = new javax.swing.JTextField();
         searchFloorPriceTxt = new javax.swing.JTextField();
         jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        searchDescriptionTxt = new javax.swing.JTextField();
 
         jLabel1.setFont(new java.awt.Font("宋体", 0, 24)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -76,50 +79,60 @@ public class CustomerSearchJPanel extends javax.swing.JPanel {
 
         jLabel4.setText("Floor Price:");
 
+        jLabel5.setText("Description:");
+
+        searchDescriptionTxt.setFont(new java.awt.Font("宋体", 0, 24)); // NOI18N
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(searchBtn)
+                .addContainerGap(226, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addGroup(layout.createSequentialGroup()
+                            .addComponent(jLabel5)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(searchDescriptionTxt, javax.swing.GroupLayout.PREFERRED_SIZE, 253, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                            .addComponent(jLabel4)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(searchFloorPriceTxt, javax.swing.GroupLayout.PREFERRED_SIZE, 253, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(layout.createSequentialGroup()
+                            .addComponent(jLabel3)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(searchVendorTxt, javax.swing.GroupLayout.PREFERRED_SIZE, 253, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(layout.createSequentialGroup()
+                            .addComponent(jLabel2)
+                            .addGap(85, 85, 85)
+                            .addComponent(searchProductNameTxt, javax.swing.GroupLayout.PREFERRED_SIZE, 253, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addComponent(searchBtn))
                 .addGap(232, 232, 232))
-            .addGroup(layout.createSequentialGroup()
-                .addGap(191, 191, 191)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabel4)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(searchFloorPriceTxt, javax.swing.GroupLayout.PREFERRED_SIZE, 253, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
-                        .addComponent(jLabel3)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(searchVendorTxt, javax.swing.GroupLayout.PREFERRED_SIZE, 253, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
-                        .addComponent(jLabel2)
-                        .addGap(85, 85, 85)
-                        .addComponent(searchProductNameTxt, javax.swing.GroupLayout.PREFERRED_SIZE, 253, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(267, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel1)
-                .addGap(53, 53, 53)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 131, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel2)
                     .addComponent(searchProductNameTxt, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
+                .addGap(24, 24, 24)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel5)
+                    .addComponent(searchDescriptionTxt, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(24, 24, 24)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel3)
                     .addComponent(searchVendorTxt, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(21, 21, 21)
+                .addGap(24, 24, 24)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(searchFloorPriceTxt, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel4))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 214, Short.MAX_VALUE)
+                .addGap(68, 68, 68)
                 .addComponent(searchBtn)
                 .addGap(110, 110, 110))
         );
@@ -129,19 +142,58 @@ public class CustomerSearchJPanel extends javax.swing.JPanel {
         // TODO add your handling code here:
         Product productNameResult = productDirectory.searchProductName(searchProductNameTxt.getText());
         productDirectory.setProductNameResult(searchProductNameTxt.getText());
-        Product vendorResult = productDirectory.searchVendor(searchVendorTxt.getText());
-        Product floorPriceResult = productDirectory.searchFloorPrice(searchFloorPriceTxt.getText());
         
-        if(productNameResult==null && vendorResult==null && floorPriceResult==null){
-            JOptionPane.showMessageDialog(null, "Product does not exist!", "Sorry", JOptionPane.INFORMATION_MESSAGE);
+        Product descriptionResult = productDirectory.searchDescription(searchDescriptionTxt.getText());
+        productDirectory.setDescriptionResult(searchDescriptionTxt.getText());
+        
+        Product vendorResult = productDirectory.searchVendor(searchVendorTxt.getText());
+        productDirectory.setVendorResult(searchVendorTxt.getText());
+        
+        Product floorPriceResult = productDirectory.searchFloorPrice(searchFloorPriceTxt.getText());
+        productDirectory.setFloorPriceResult(searchFloorPriceTxt.getText());
+        
+        
+        
+        if(searchProductNameTxt.getText().length()<1 && searchDescriptionTxt.getText().length()<1 && searchVendorTxt.getText().length()<1 && searchFloorPriceTxt.getText().length()<1){
+            JOptionPane.showMessageDialog(null, "Please enter some information");
         }
-        else if(productNameResult!=null)
-        {
-            SearchResultJPanel panel = new SearchResultJPanel(userProcessContainer, productNameResult, productDirectory);
-            userProcessContainer.add("ViewAccountJPanel", panel);
-            CardLayout layout = (CardLayout) userProcessContainer.getLayout();
-            layout.next(userProcessContainer);      
+        else{
+            if(productNameResult==null && descriptionResult==null && vendorResult==null && floorPriceResult==null){
+                JOptionPane.showMessageDialog(null, "This product does not exist");
+            }
+            
+            else if(productNameResult!=null){
+                SearchResultJPanel panel = new SearchResultJPanel(userProcessContainer, productNameResult, productDirectory);
+                userProcessContainer.add("SearchResultJPanel", panel);
+                CardLayout layout = (CardLayout) userProcessContainer.getLayout();
+                layout.next(userProcessContainer);  
+             }
+            
+            else if(descriptionResult!=null){
+                SearchResultJPanel panel = new SearchResultJPanel(userProcessContainer, descriptionResult, productDirectory);
+                userProcessContainer.add("SearchResultJPanel", panel);
+                CardLayout layout = (CardLayout) userProcessContainer.getLayout();
+                layout.next(userProcessContainer);      
+            }
+            else if(vendorResult !=null){
+                SearchResultJPanel panel = new SearchResultJPanel(userProcessContainer, vendorResult, productDirectory);
+                userProcessContainer.add("SearchResultJPanel", panel);
+                CardLayout layout = (CardLayout) userProcessContainer.getLayout();
+                layout.next(userProcessContainer);      
+            }
+            else if(floorPriceResult !=null){
+                SearchResultJPanel panel = new SearchResultJPanel(userProcessContainer, floorPriceResult, productDirectory);
+                userProcessContainer.add("SearchResultJPanel", panel);
+                CardLayout layout = (CardLayout) userProcessContainer.getLayout();
+                layout.next(userProcessContainer);      
+            
+                
+            }
+                        
         }
+//        searchProductNameTxt.setText("");
+//        productNameResult = new Product();
+        
     }//GEN-LAST:event_searchBtnActionPerformed
 
 
@@ -150,7 +202,9 @@ public class CustomerSearchJPanel extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
     private javax.swing.JButton searchBtn;
+    private javax.swing.JTextField searchDescriptionTxt;
     private javax.swing.JTextField searchFloorPriceTxt;
     private javax.swing.JTextField searchProductNameTxt;
     private javax.swing.JTextField searchVendorTxt;

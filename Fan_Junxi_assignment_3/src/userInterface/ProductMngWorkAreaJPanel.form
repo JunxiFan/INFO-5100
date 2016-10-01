@@ -17,31 +17,33 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
-              <EmptySpace min="-2" pref="170" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="-2" pref="223" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="softwareBtn" max="32767" attributes="0"/>
+                      <Component id="computerBtn" alignment="0" max="32767" attributes="0"/>
+                      <Component id="printerBtn" alignment="0" max="32767" attributes="0"/>
+                      <Component id="hardwareBtn" alignment="0" min="-2" pref="257" max="-2" attributes="0"/>
+                  </Group>
                   <Group type="102" attributes="0">
                       <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="vendorIDTxt" min="-2" pref="217" max="-2" attributes="0"/>
                   </Group>
-                  <Component id="softwareBtn" min="-2" max="-2" attributes="0"/>
-                  <Component id="hardwareBtn" min="-2" max="-2" attributes="0"/>
-                  <Component id="printerBtn" min="-2" max="-2" attributes="0"/>
-                  <Component id="computerBtn" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace pref="451" max="32767" attributes="0"/>
+              <EmptySpace pref="358" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
-              <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="141" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="vendorIDTxt" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="68" max="-2" attributes="0"/>
               <Component id="computerBtn" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Component id="printerBtn" min="-2" max="-2" attributes="0"/>
@@ -49,7 +51,7 @@
               <Component id="hardwareBtn" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Component id="softwareBtn" min="-2" max="-2" attributes="0"/>
-              <EmptySpace pref="324" max="32767" attributes="0"/>
+              <EmptySpace pref="197" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -101,7 +103,7 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Vendor:"/>
+        <Property name="text" type="java.lang.String" value="Vendor Name:"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="vendorIDTxt">
