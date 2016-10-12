@@ -1,0 +1,77 @@
+﻿Bachelor,School of Management,College of Engineering,Jilin University
+Bachelor,School of Business,College of Engineering,Jilin University
+Bachelor,School of Finance,College of Engineering,Jilin University
+Bachelor,School of Humanities,College of Arts,Jilin University
+Bachelor,School of History,College of Arts,Jilin University
+Bachelor,School of Literature,College of Arts,Jilin University
+Bachelor,School of Environment,College of Earth Science,Jilin University
+Bachelor,School of Resources,College of Earth Science,Jilin University
+Bachelor,School of Electrical Engineering,College of Earth Science,Jilin University
+Bachelor,School of Management,College of Engineering,Harbin Institute of Technology
+Bachelor,School of Business,College of Engineering,Harbin Institute of Technology
+Bachelor,School of Finance,College of Engineering,Harbin Institute of Technology
+Bachelor,School of Humanities,College of Arts,Harbin Institute of Technology
+Bachelor,School of History,College of Arts,Harbin Institute of Technology
+Bachelor,School of Literature,College of Arts,Harbin Institute of Technology
+Bachelor,School of Environment,College of Earth Science,Harbin Institute of Technology
+Bachelor,School of Resources,College of Earth Science,Harbin Institute of Technology
+Bachelor,School of Electrical Engineering,College of Earth Science,Harbin Institute of Technology
+Bachelor,School of Management,College of Engineering,Shenyang University
+Bachelor,School of Business,College of Engineering,Shenyang University
+Bachelor,School of Finance,College of Engineering,Shenyang University
+Bachelor,School of Humanities,College of Arts,Shenyang University
+Bachelor,School of History,College of Arts,Shenyang University
+Bachelor,School of Literature,College of Arts,Shenyang University
+Bachelor,School of Environment,College of Earth Science,Shenyang University
+Bachelor,School of Resources,College of Earth Science,Shenyang University
+Bachelor,School of Electrical Engineering,College of Earth Science,Shenyang University
+Master,School of Management,College of Engineering,Jilin University
+Master,School of Business,College of Engineering,Jilin University
+Master,School of Finance,College of Engineering,Jilin University
+Master,School of Humanities,College of Arts,Jilin University
+Master,School of History,College of Arts,Jilin University
+Master,School of Literature,College of Arts,Jilin University
+Master,School of Environment,College of Earth Science,Jilin University
+Master,School of Resources,College of Earth Science,Jilin University
+Master,School of Electrical Engineering,College of Earth Science,Jilin University
+Master,School of Management,College of Engineering,Harbin Institute of Technology
+Master,School of Business,College of Engineering,Harbin Institute of Technology
+Master,School of Finance,College of Engineering,Harbin Institute of Technology
+Master,School of Humanities,College of Arts,Harbin Institute of Technology
+Master,School of History,College of Arts,Harbin Institute of Technology
+Master,School of Literature,College of Arts,Harbin Institute of Technology
+Master,School of Environment,College of Earth Science,Harbin Institute of Technology
+Master,School of Resources,College of Earth Science,Harbin Institute of Technology
+Master,School of Electrical Engineering,College of Earth Science,Harbin Institute of Technology
+Master,School of Management,College of Engineering,Shenyang University
+Master,School of Business,College of Engineering,Shenyang University
+Master,School of Finance,College of Engineering,Shenyang University
+Master,School of Humanities,College of Arts,Shenyang University
+Master,School of History,College of Arts,Shenyang University
+Master,School of Literature,College of Arts,Shenyang University
+Master,School of Resources,College of Earth Science,Shenyang University
+Master,School of Electrical Engineering,College of Earth Science,Shenyang University
+Doctor,School of Management,College of Engineering,Jilin University
+Doctor,School of Business,College of Engineering,Jilin University
+Doctor,School of Finance,College of Engineering,Jilin University
+Doctor,School of Humanities,College of Arts,Jilin University
+Doctor,School of History,College of Arts,Jilin University
+Doctor,School of Literature,College of Arts,Jilin University
+Doctor,School of Resources,College of Earth Science,Jilin University
+Doctor,School of Electrical Engineering,College of Earth Science,Jilin University
+Doctor,School of Management,College of Engineering,Harbin Institute of Technology
+Doctor,School of Business,College of Engineering,Harbin Institute of Technology
+Doctor,School of Finance,College of Engineering,Harbin Institute of Technology
+Doctor,School of Humanities,College of Arts,Harbin Institute of Technology
+Doctor,School of History,College of Arts,Harbin Institute of Technology
+Doctor,School of Environment,College of Earth Science,Harbin Institute of Technology
+Doctor,School of Resources,College of Earth Science,Harbin Institute of Technology
+Doctor,School of Electrical Engineering,College of Earth Science,Harbin Institute of Technology
+Doctor,School of Management,College of Engineering,Shenyang University
+Doctor,School of Business,College of Engineering,Shenyang University
+Doctor,School of Finance,College of Engineering,Shenyang University
+Doctor,School of Humanities,College of Arts,Shenyang University
+Doctor,School of History,College of Arts,Shenyang University
+Doctor,School of Environment,College of Earth Science,Shenyang University
+Doctor,School of Resources,College of Earth Science,Shenyang University
+Doctor,School of Electrical Engineering,College of Earth Science,Shenyang University

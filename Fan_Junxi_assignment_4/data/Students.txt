@@ -1,0 +1,81 @@
+﻿1,Zhang Jing,School of Management,College of Engineering,Jilin University
+2,Wang Ziqiang,School of Management,College of Engineering,Jilin University
+3,Feng liu,School of Management,College of Engineering,Jilin University
+4,Zhang Jing,School of Business,College of Engineering,Jilin University
+5,Wang Ziqiang,School of Business,College of Engineering,Jilin University
+6,Feng liu,School of Business,College of Engineering,Jilin University
+7,Zhang Jing,School of Finance,College of Engineering,Jilin University
+8,Wang Ziqiang,School of Finance,College of Engineering,Jilin University
+9,Feng liu,School of Finance,College of Engineering,Jilin University
+10,Zhang Jing,School of Humanities,College of Arts,Jilin University
+11,Wang Ziqiang,School of Humanities,College of Arts,Jilin University
+12,Feng liu,School of Humanities,College of Arts,Jilin University
+13,Zhang Jing,School of History,College of Arts,Jilin University
+14,Wang Ziqiang,School of History,College of Arts,Jilin University
+15,Feng liu,School of History,College of Arts,Jilin University
+16,Zhang Jing,School of Literature,College of Arts,Jilin University
+17,Wang Ziqiang,School of Literature,College of Arts,Jilin University
+18,Feng liu,School of Literature,College of Arts,Jilin University
+19,Zhang Jing,School of Environment,College of Earth Science,Jilin University
+20,Wang Ziqiang,School of Environment,College of Earth Science,Jilin University
+21,Feng liu,School of Environment,College of Earth Science,Jilin University
+22,Zhang Jing,School of Resources,College of Earth Science,Jilin University
+23,Wang Ziqiang,School of Resources,College of Earth Science,Jilin University
+24,Feng liu,School of Resources,College of Earth Science,Jilin University
+25,Zhang Jing,School of Electrical Engineering,College of Earth Science,Jilin University
+26,Wang Ziqiang,School of Electrical Engineering,College of Earth Science,Jilin University
+27,Feng liu,School of Electrical Engineering,College of Earth Science,Jilin University
+28,Zhang Jing,School of Management,College of Engineering,Harbin Institute of Technology
+29,Wang Ziqiang,School of Management,College of Engineering,Harbin Institute of Technology
+30,Feng liu,School of Management,College of Engineering,Harbin Institute of Technology
+31,Zhang Jing,School of Business,College of Engineering,Harbin Institute of Technology
+32,Wang Ziqiang,School of Business,College of Engineering,Harbin Institute of Technology
+33,Feng liu,School of Business,College of Engineering,Harbin Institute of Technology
+34,Zhang Jing,School of Finance,College of Engineering,Harbin Institute of Technology
+35,Wang Ziqiang,School of Finance,College of Engineering,Harbin Institute of Technology
+36,Feng liu,School of Finance,College of Engineering,Harbin Institute of Technology
+37,Zhang Jing,School of Humanities,College of Arts,Harbin Institute of Technology
+38,Wang Ziqiang,School of Humanities,College of Arts,Harbin Institute of Technology
+39,Feng liu,School of Humanities,College of Arts,Harbin Institute of Technology
+40,Zhang Jing,School of History,College of Arts,Harbin Institute of Technology
+41,Wang Ziqiang,School of History,College of Arts,Harbin Institute of Technology
+42,Feng liu,School of History,College of Arts,Harbin Institute of Technology
+43,Zhang Jing,School of Literature,College of Arts,Harbin Institute of Technology
+44,Wang Ziqiang,School of Literature,College of Arts,Harbin Institute of Technology
+45,Feng liu,School of Literature,College of Arts,Harbin Institute of Technology
+46,Zhang Jing,School of Environment,College of Earth Science,Harbin Institute of Technology
+47,Wang Ziqiang,School of Environment,College of Earth Science,Harbin Institute of Technology
+48,Feng liu,School of Environment,College of Earth Science,Harbin Institute of Technology
+49,Zhang Jing,School of Resources,College of Earth Science,Harbin Institute of Technology
+50,Wang Ziqiang,School of Resources,College of Earth Science,Harbin Institute of Technology
+51,Feng liu,School of Resources,College of Earth Science,Harbin Institute of Technology
+52,Zhang Jing,School of Electrical Engineering,College of Earth Science,Harbin Institute of Technology
+53,Wang Ziqiang,School of Electrical Engineering,College of Earth Science,Harbin Institute of Technology
+54,Feng liu,School of Electrical Engineering,College of Earth Science,Harbin Institute of Technology
+55,Zhang Jing,School of Management,College of Engineering,Shenyang University
+56,Wang Ziqiang,School of Management,College of Engineering,Shenyang University
+57,Feng liu,School of Management,College of Engineering,Shenyang University
+58,Zhang Jing,School of Business,College of Engineering,Shenyang University
+59,Wang Ziqiang,School of Business,College of Engineering,Shenyang University
+60,Feng liu,School of Business,College of Engineering,Shenyang University
+61,Zhang Jing,School of Finance,College of Engineering,Shenyang University
+62,Wang Ziqiang,School of Finance,College of Engineering,Shenyang University
+63,Feng liu,School of Finance,College of Engineering,Shenyang University
+64,Zhang Jing,School of Humanities,College of Arts,Shenyang University
+65,Wang Ziqiang,School of Humanities,College of Arts,Shenyang University
+66,Feng liu,School of Humanities,College of Arts,Shenyang University
+67,Zhang Jing,School of History,College of Arts,Shenyang University
+68,Wang Ziqiang,School of History,College of Arts,Shenyang University
+69,Feng liu,School of History,College of Arts,Shenyang University
+70,Zhang Jing,School of Literature,College of Arts,Shenyang University
+71,Wang Ziqiang,School of Literature,College of Arts,Shenyang University
+72,Feng liu,School of Literature,College of Arts,Shenyang University
+73,Zhang Jing,School of Environment,College of Earth Science,Shenyang University
+74,Wang Ziqiang,School of Environment,College of Earth Science,Shenyang University
+75,Feng liu,School of Environment,College of Earth Science,Shenyang University
+76,Zhang Jing,School of Resources,College of Earth Science,Shenyang University
+77,Wang Ziqiang,School of Resources,College of Earth Science,Shenyang University
+78,Feng liu,School of Resources,College of Earth Science,Shenyang University
+79,Zhang Jing,School of Electrical Engineering,College of Earth Science,Shenyang University
+80,Wang Ziqiang,School of Electrical Engineering,College of Earth Science,Shenyang University
+81,Feng liu,School of Electrical Engineering,College of Earth Science,Shenyang University

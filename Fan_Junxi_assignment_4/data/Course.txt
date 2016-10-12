@@ -1,0 +1,81 @@
+﻿English,core,School of Management,College of Engineering,Jilin University
+Math,core,School of Management,College of Engineering,Jilin University
+Employment Guidance,elective,School of Management,College of Engineering,Jilin University
+English,core,School of Business,College of Engineering,Jilin University
+Math,core,School of Business,College of Engineering,Jilin University
+Employment Guidance,elective,School of Business,College of Engineering,Jilin University
+English,core,School of Finance,College of Engineering,Jilin University
+Math,core,School of Finance,College of Engineering,Jilin University
+Employment Guidance,elective,School of Finance,College of Engineering,Jilin University
+English,core,School of Humanities,College of Arts,Jilin University
+Math,core,School of Humanities,College of Arts,Jilin University
+Employment Guidance,elective,School of Humanities,College of Arts,Jilin University
+English,core,School of History,College of Arts,Jilin University
+Math,core,School of History,College of Arts,Jilin University
+Employment Guidance,elective,School of History,College of Arts,Jilin University
+English,core,School of Literature,College of Arts,Jilin University
+Math,core,School of Literature,College of Arts,Jilin University
+Employment Guidance,elective,School of Literature,College of Arts,Jilin University
+English,core,School of Environment,College of Earth Science,Jilin University
+Math,core,School of Environment,College of Earth Science,Jilin University
+Employment Guidance,elective,School of Environment,College of Earth Science,Jilin University
+English,core,School of Resources,College of Earth Science,Jilin University
+Math,core,School of Resources,College of Earth Science,Jilin University
+Employment Guidance,elective,School of Resources,College of Earth Science,Jilin University
+English,core,School of Electrical Engineering,College of Earth Science,Jilin University
+Math,core,School of Electrical Engineering,College of Earth Science,Jilin University
+Employment Guidance,elective,School of Electrical Engineering,College of Earth Science,Jilin University
+English,core,School of Management,College of Engineering,Harbin Institute of Technology
+Math,core,School of Management,College of Engineering,Harbin Institute of Technology
+Employment Guidance,elective,School of Management,College of Engineering,Harbin Institute of Technology
+English,core,School of Business,College of Engineering,Harbin Institute of Technology
+Math,core,School of Business,College of Engineering,Harbin Institute of Technology
+Employment Guidance,elective,School of Business,College of Engineering,Harbin Institute of Technology
+English,core,School of Finance,College of Engineering,Harbin Institute of Technology
+Math,core,School of Finance,College of Engineering,Harbin Institute of Technology
+Employment Guidance,elective,School of Finance,College of Engineering,Harbin Institute of Technology
+English,core,School of Humanities,College of Arts,Harbin Institute of Technology
+Math,core,School of Humanities,College of Arts,Harbin Institute of Technology
+Employment Guidance,elective,School of Humanities,College of Arts,Harbin Institute of Technology
+English,core,School of History,College of Arts,Harbin Institute of Technology
+Math,core,School of History,College of Arts,Harbin Institute of Technology
+Employment Guidance,elective,School of History,College of Arts,Harbin Institute of Technology
+English,core,School of Literature,College of Arts,Harbin Institute of Technology
+Math,core,School of Literature,College of Arts,Harbin Institute of Technology
+Employment Guidance,elective,School of Literature,College of Arts,Harbin Institute of Technology
+English,core,School of Environment,College of Earth Science,Harbin Institute of Technology
+Math,core,School of Environment,College of Earth Science,Harbin Institute of Technology
+Employment Guidance,elective,School of Environment,College of Earth Science,Harbin Institute of Technology
+English,core,School of Resources,College of Earth Science,Harbin Institute of Technology
+Math,core,School of Resources,College of Earth Science,Harbin Institute of Technology
+Employment Guidance,elective,School of Resources,College of Earth Science,Harbin Institute of Technology
+English,core,School of Electrical Engineering,College of Earth Science,Harbin Institute of Technology
+Math,core,School of Electrical Engineering,College of Earth Science,Harbin Institute of Technology
+Employment Guidance,elective,School of Electrical Engineering,College of Earth Science,Harbin Institute of Technology
+English,core,School of Management,College of Engineering,Shenyang University
+Math,core,School of Management,College of Engineering,Shenyang University
+Employment Guidance,elective,School of Management,College of Engineering,Shenyang University
+English,core,School of Business,College of Engineering,Shenyang University
+Math,core,School of Business,College of Engineering,Shenyang University
+Employment Guidance,elective,School of Business,College of Engineering,Shenyang University
+English,core,School of Finance,College of Engineering,Shenyang University
+Math,core,School of Finance,College of Engineering,Shenyang University
+Employment Guidance,elective,School of Finance,College of Engineering,Shenyang University
+English,core,School of Humanities,College of Arts,Shenyang University
+Math,core,School of Humanities,College of Arts,Shenyang University
+Employment Guidance,elective,School of Humanities,College of Arts,Shenyang University
+English,core,School of History,College of Arts,Shenyang University
+Math,core,School of History,College of Arts,Shenyang University
+Employment Guidance,elective,School of History,College of Arts,Shenyang University
+English,core,School of Literature,College of Arts,Shenyang University
+Math,core,School of Literature,College of Arts,Shenyang University
+Employment Guidance,elective,School of Literature,College of Arts,Shenyang University
+English,core,School of Environment,College of Earth Science,Shenyang University
+Math,core,School of Environment,College of Earth Science,Shenyang University
+Employment Guidance,elective,School of Environment,College of Earth Science,Shenyang University
+English,core,School of Resources,College of Earth Science,Shenyang University
+Math,core,School of Resources,College of Earth Science,Shenyang University
+Employment Guidance,elective,School of Resources,College of Earth Science,Shenyang University
+English,core,School of Electrical Engineering,College of Earth Science,Shenyang University
+Math,core,School of Electrical Engineering,College of Earth Science,Shenyang University
+Employment Guidance,elective,School of Electrical Engineering,College of Earth Science,Shenyang University

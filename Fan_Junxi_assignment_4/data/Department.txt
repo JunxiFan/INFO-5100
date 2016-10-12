@@ -1,0 +1,27 @@
+﻿School of Management,College of Engineering,Jilin University
+School of Business,College of Engineering,Jilin University
+School of Finance,College of Engineering,Jilin University,Bachelor| Master
+School of Humanities,College of Arts,Jilin University
+School of History,College of Arts,Jilin University
+School of Literature,College of Arts,Jilin University
+School of Environment,College of Earth Science,Jilin University,Bachelor| Master
+School of Resources,College of Earth Science,Jilin University
+School of Electrical Engineering,College of Earth Science,Jilin University
+School of Management,College of Engineering,Harbin Institute of Technology
+School of Business,College of Engineering,Harbin Institute of Technology
+School of Finance,College of Engineering,Harbin Institute of Technology,Bachelor| Master
+School of Humanities,College of Arts,Harbin Institute of Technology
+School of History,College of Arts,Harbin Institute of Technology
+School of Literature,College of Arts,Harbin Institute of Technology
+School of Environment,College of Earth Science,Harbin Institute of Technology,Bachelor| Master
+School of Resources,College of Earth Science,Harbin Institute of Technology
+School of Electrical Engineering,College of Earth Science,Harbin Institute of Technology
+School of Management,College of Engineering,Shenyang University
+School of Business,College of Engineering,Shenyang University
+School of Finance,College of Engineering,Shenyang University,Bachelor| Master
+School of Humanities,College of Arts,Shenyang University
+School of History,College of Arts,Shenyang University
+School of Literature,College of Arts,Shenyang University
+School of Environment,College of Earth Science,Shenyang University,Bachelor| Master
+School of Resources,College of Earth Science,Shenyang University
+School of Electrical Engineering,College of Earth Science,Shenyang University

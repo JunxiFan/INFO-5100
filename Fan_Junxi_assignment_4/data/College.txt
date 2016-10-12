@@ -1,0 +1,9 @@
+﻿Jilin University,College of Engineering
+Jilin University,College of Arts
+Jilin University,College of Earth Science
+Harbin Institute of Technology,College of Engineering
+Harbin Institute of Technology,College of Arts
+Harbin Institute of Technology,College of Earth Science
+Shenyang University,College of Engineering
+Shenyang University,College of Arts
+Shenyang University,College of Earth Science
