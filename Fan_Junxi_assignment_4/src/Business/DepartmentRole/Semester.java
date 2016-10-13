@@ -11,12 +11,12 @@ package Business.DepartmentRole;
  */
 public class Semester {
     private String semesterName;
-    private String semesterTime;
-    private CourseOfferingCatalog courseOfferingCatalog;
-    
-    public Semester(){
-        courseOfferingCatalog = new CourseOfferingCatalog();
-    }
+    private String courseName;
+    private String courseType;
+    private String departmentName;
+    private String collegeName;
+    private String universityName;
+    private String courseRequirement;
 
     public String getSemesterName() {
         return semesterName;
@@ -26,12 +26,57 @@ public class Semester {
         this.semesterName = semesterName;
     }
 
-    public String getSemesterTime() {
-        return semesterTime;
+    public String getCourseName() {
+        return courseName;
     }
 
-    public void setSemesterTime(String semesterTime) {
-        this.semesterTime = semesterTime;
+    public void setCourseName(String courseName) {
+        this.courseName = courseName;
+    }
+
+    public String getCourseType() {
+        return courseType;
+    }
+
+    public void setCourseType(String courseType) {
+        this.courseType = courseType;
+    }
+
+    public String getDepartmentName() {
+        return departmentName;
+    }
+
+    public void setDepartmentName(String departmentName) {
+        this.departmentName = departmentName;
+    }
+
+    public String getCollegeName() {
+        return collegeName;
+    }
+
+    public void setCollegeName(String collegeName) {
+        this.collegeName = collegeName;
+    }
+
+    public String getUniversityName() {
+        return universityName;
+    }
+
+    public void setUniversityName(String universityName) {
+        this.universityName = universityName;
+    }
+
+    public String getCourseRequirement() {
+        return courseRequirement;
+    }
+
+    public void setCourseRequirement(String courseRequirement) {
+        this.courseRequirement = courseRequirement;
     }
     
+
+
+
+
+
 }

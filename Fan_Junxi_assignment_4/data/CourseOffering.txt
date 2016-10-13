@@ -1,81 +1,82 @@
-﻿1,English,Monday9:00-12:00,Classroom A,Mr.Wu,20,School of Management,College of Engineering,Jilin University
-2,Math,Friday14:00-16:00,Classroom B,Mr.Liu,20,School of Management,College of Engineering,Jilin University
-3,Employment Guidance,Wednesday15:00-16:00,Classroom C,Mr.Hu,50,School of Management,College of Engineering,Jilin University
-4,English,Monday9:00-12:00,Classroom A,Mr.Wu,20,School of Business,College of Engineering,Jilin University
-5,Math,Friday14:00-16:00,Classroom B,Mr.Liu,20,School of Business,College of Engineering,Jilin University
-6,Employment Guidance,Wednesday15:00-16:00,Classroom C,Mr.Hu,50,School of Business,College of Engineering,Jilin University
-7,English,Monday9:00-12:00,Classroom A,Mr.Wu,20,School of Finance,College of Engineering,Jilin University
-8,Math,Friday14:00-16:00,Classroom B,Mr.Liu,20,School of Finance,College of Engineering,Jilin University
-9,Employment Guidance,Wednesday15:00-16:00,Classroom C,Mr.Hu,50,School of Finance,College of Engineering,Jilin University
-10,English,Monday9:00-12:00,Classroom A,Mr.Wu,20,School of Humanities,College of Arts,Jilin University
-11,Math,Friday14:00-16:00,Classroom B,Mr.Liu,20,School of Humanities,College of Arts,Jilin University
-12,Employment Guidance,Wednesday15:00-16:00,Classroom C,Mr.Hu,50,School of Humanities,College of Arts,Jilin University
-13,English,Monday9:00-12:00,Classroom A,Mr.Wu,20,School of History,College of Arts,Jilin University
-14,Math,Friday14:00-16:00,Classroom B,Mr.Liu,20,School of History,College of Arts,Jilin University
-15,Employment Guidance,Wednesday15:00-16:00,Classroom C,Mr.Hu,50,School of History,College of Arts,Jilin University
-16,English,Monday9:00-12:00,Classroom A,Mr.Wu,20,School of Literature,College of Arts,Jilin University
-17,Math,Friday14:00-16:00,Classroom B,Mr.Liu,20,School of Literature,College of Arts,Jilin University
-18,Employment Guidance,Wednesday15:00-16:00,Classroom C,Mr.Hu,50,School of Literature,College of Arts,Jilin University
-19,English,Monday9:00-12:00,Classroom A,Mr.Wu,20,School of Environment,College of Earth Science,Jilin University
-20,Math,Friday14:00-16:00,Classroom B,Mr.Liu,20,School of Environment,College of Earth Science,Jilin University
-21,Employment Guidance,Wednesday15:00-16:00,Classroom C,Mr.Hu,50,School of Environment,College of Earth Science,Jilin University
-22,English,Monday9:00-12:00,Classroom A,Mr.Wu,20,School of Resources,College of Earth Science,Jilin University
-23,Math,Friday14:00-16:00,Classroom B,Mr.Liu,20,School of Resources,College of Earth Science,Jilin University
-24,Employment Guidance,Wednesday15:00-16:00,Classroom C,Mr.Hu,50,School of Resources,College of Earth Science,Jilin University
-25,English,Monday9:00-12:00,Classroom A,Mr.Wu,20,School of Electrical Engineering,College of Earth Science,Jilin University
-26,Math,Friday14:00-16:00,Classroom B,Mr.Liu,20,School of Electrical Engineering,College of Earth Science,Jilin University
-27,Employment Guidance,Wednesday15:00-16:00,Classroom C,Mr.Hu,50,School of Electrical Engineering,College of Earth Science,Jilin University
-28,English,Monday9:00-12:00,Classroom A,Mr.Wu,20,School of Management,College of Engineering,Harbin Institute of Technology
-29,Math,Friday14:00-16:00,Classroom B,Mr.Liu,20,School of Management,College of Engineering,Harbin Institute of Technology
-30,Employment Guidance,Wednesday15:00-16:00,Classroom C,Mr.Hu,50,School of Management,College of Engineering,Harbin Institute of Technology
-31,English,Monday9:00-12:00,Classroom A,Mr.Wu,20,School of Business,College of Engineering,Harbin Institute of Technology
-32,Math,Friday14:00-16:00,Classroom B,Mr.Liu,20,School of Business,College of Engineering,Harbin Institute of Technology
-33,Employment Guidance,Wednesday15:00-16:00,Classroom C,Mr.Hu,50,School of Business,College of Engineering,Harbin Institute of Technology
-34,English,Monday9:00-12:00,Classroom A,Mr.Wu,20,School of Finance,College of Engineering,Harbin Institute of Technology
-35,Math,Friday14:00-16:00,Classroom B,Mr.Liu,20,School of Finance,College of Engineering,Harbin Institute of Technology
-36,Employment Guidance,Wednesday15:00-16:00,Classroom C,Mr.Hu,50,School of Finance,College of Engineering,Harbin Institute of Technology
-37,English,Monday9:00-12:00,Classroom A,Mr.Wu,20,School of Humanities,College of Arts,Harbin Institute of Technology
-38,Math,Friday14:00-16:00,Classroom B,Mr.Liu,20,School of Humanities,College of Arts,Harbin Institute of Technology
-39,Employment Guidance,Wednesday15:00-16:00,Classroom C,Mr.Hu,50,School of Humanities,College of Arts,Harbin Institute of Technology
-40,English,Monday9:00-12:00,Classroom A,Mr.Wu,20,School of History,College of Arts,Harbin Institute of Technology
-41,Math,Friday14:00-16:00,Classroom B,Mr.Liu,20,School of History,College of Arts,Harbin Institute of Technology
-42,Employment Guidance,Wednesday15:00-16:00,Classroom C,Mr.Hu,50,School of History,College of Arts,Harbin Institute of Technology
-43,English,Monday9:00-12:00,Classroom A,Mr.Wu,20,School of Literature,College of Arts,Harbin Institute of Technology
-44,Math,Friday14:00-16:00,Classroom B,Mr.Liu,20,School of Literature,College of Arts,Harbin Institute of Technology
-45,Employment Guidance,Wednesday15:00-16:00,Classroom C,Mr.Hu,50,School of Literature,College of Arts,Harbin Institute of Technology
-46,English,Monday9:00-12:00,Classroom A,Mr.Wu,20,School of Environment,College of Earth Science,Harbin Institute of Technology
-47,Math,Friday14:00-16:00,Classroom B,Mr.Liu,20,School of Environment,College of Earth Science,Harbin Institute of Technology
-48,Employment Guidance,Wednesday15:00-16:00,Classroom C,Mr.Hu,50,School of Environment,College of Earth Science,Harbin Institute of Technology
-49,English,Monday9:00-12:00,Classroom A,Mr.Wu,20,School of Resources,College of Earth Science,Harbin Institute of Technology
-50,Math,Friday14:00-16:00,Classroom B,Mr.Liu,20,School of Resources,College of Earth Science,Harbin Institute of Technology
-51,Employment Guidance,Wednesday15:00-16:00,Classroom C,Mr.Hu,50,School of Resources,College of Earth Science,Harbin Institute of Technology
-52,English,Monday9:00-12:00,Classroom A,Mr.Wu,20,School of Electrical Engineering,College of Earth Science,Harbin Institute of Technology
-53,Math,Friday14:00-16:00,Classroom B,Mr.Liu,20,School of Electrical Engineering,College of Earth Science,Harbin Institute of Technology
-54,Employment Guidance,Wednesday15:00-16:00,Classroom C,Mr.Hu,50,School of Electrical Engineering,College of Earth Science,Harbin Institute of Technology
-55,English,Monday9:00-12:00,Classroom A,Mr.Wu,20,School of Management,College of Engineering,Shenyang University
-56,Math,Friday14:00-16:00,Classroom B,Mr.Liu,20,School of Management,College of Engineering,Shenyang University
-57,Employment Guidance,Wednesday15:00-16:00,Classroom C,Mr.Hu,50,School of Management,College of Engineering,Shenyang University
-58,English,Monday9:00-12:00,Classroom A,Mr.Wu,20,School of Business,College of Engineering,Shenyang University
-59,Math,Friday14:00-16:00,Classroom B,Mr.Liu,20,School of Business,College of Engineering,Shenyang University
-60,Employment Guidance,Wednesday15:00-16:00,Classroom C,Mr.Hu,50,School of Business,College of Engineering,Shenyang University
-61,English,Monday9:00-12:00,Classroom A,Mr.Wu,20,School of Finance,College of Engineering,Shenyang University
-62,Math,Friday14:00-16:00,Classroom B,Mr.Liu,20,School of Finance,College of Engineering,Shenyang University
-63,Employment Guidance,Wednesday15:00-16:00,Classroom C,Mr.Hu,50,School of Finance,College of Engineering,Shenyang University
-64,English,Monday9:00-12:00,Classroom A,Mr.Wu,20,School of Humanities,College of Arts,Shenyang University
-65,Math,Friday14:00-16:00,Classroom B,Mr.Liu,20,School of Humanities,College of Arts,Shenyang University
-66,Employment Guidance,Wednesday15:00-16:00,Classroom C,Mr.Hu,50,School of Humanities,College of Arts,Shenyang University
-67,English,Monday9:00-12:00,Classroom A,Mr.Wu,20,School of History,College of Arts,Shenyang University
-68,Math,Friday14:00-16:00,Classroom B,Mr.Liu,20,School of History,College of Arts,Shenyang University
-69,Employment Guidance,Wednesday15:00-16:00,Classroom C,Mr.Hu,50,School of History,College of Arts,Shenyang University
-70,English,Monday9:00-12:00,Classroom A,Mr.Wu,20,School of Literature,College of Arts,Shenyang University
-71,Math,Friday14:00-16:00,Classroom B,Mr.Liu,20,School of Literature,College of Arts,Shenyang University
-72,Employment Guidance,Wednesday15:00-16:00,Classroom C,Mr.Hu,50,School of Literature,College of Arts,Shenyang University
-73,English,Monday9:00-12:00,Classroom A,Mr.Wu,20,School of Environment,College of Earth Science,Shenyang University
-74,Math,Friday14:00-16:00,Classroom B,Mr.Liu,20,School of Environment,College of Earth Science,Shenyang University
-75,Employment Guidance,Wednesday15:00-16:00,Classroom C,Mr.Hu,50,School of Environment,College of Earth Science,Shenyang University
-76,English,Monday9:00-12:00,Classroom A,Mr.Wu,20,School of Resources,College of Earth Science,Shenyang University
-77,Math,Friday14:00-16:00,Classroom B,Mr.Liu,20,School of Resources,College of Earth Science,Shenyang University
-78,Employment Guidance,Wednesday15:00-16:00,Classroom C,Mr.Hu,50,School of Resources,College of Earth Science,Shenyang University
-79,English,Monday9:00-12:00,Classroom A,Mr.Wu,20,School of Electrical Engineering,College of Earth Science,Shenyang University
-80,Math,Friday14:00-16:00,Classroom B,Mr.Liu,20,School of Electrical Engineering,College of Earth Science,Shenyang University
-81,Employment Guidance,Wednesday15:00-16:00,Classroom C,Mr.Hu,50,School of Electrical Engineering,College of Earth Science,Shenyang University
+﻿1,English,Monday9:00-12:00,Classroom A,Professor Wu,15,School of Management,College of Engineering,Jilin University
+2,Math,Friday14:00-16:00,Classroom B,Professor Liu,25,School of Management,College of Engineering,Jilin University
+3,Employment Guidance,Wednesday15:00-16:00,Classroom C,Professor Hu,50,School of Management,College of Engineering,Jilin University
+4,Business Trageties,Thursday17:30-19:30,Classroom D,Professor Zhang,30,School of Management,College of Engineering,Jilin University
+5,English,Monday9:00-12:00,Classroom A,Professor Wu,20,School of Business,College of Engineering,Jilin University
+6,Math,Friday14:00-16:00,Classroom B,Professor Liu,20,School of Business,College of Engineering,Jilin University
+7,Employment Guidance,Wednesday15:00-16:00,Classroom C,Professor Hu,50,School of Business,College of Engineering,Jilin University
+8,English,Monday9:00-12:00,Classroom A,Professor Wu,20,School of Finance,College of Engineering,Jilin University
+9,Math,Friday14:00-16:00,Classroom B,Professor Liu,20,School of Finance,College of Engineering,Jilin University
+10,Employment Guidance,Wednesday15:00-16:00,Classroom C,Professor Hu,50,School of Finance,College of Engineering,Jilin University
+11,English,Monday9:00-12:00,Classroom A,Professor Wu,20,School of Humanities,College of Arts,Jilin University
+12,Math,Friday14:00-16:00,Classroom B,Professor Liu,20,School of Humanities,College of Arts,Jilin University
+13,Employment Guidance,Wednesday15:00-16:00,Classroom C,Professor Hu,50,School of Humanities,College of Arts,Jilin University
+14,English,Monday9:00-12:00,Classroom A,Professor Wu,20,School of History,College of Arts,Jilin University
+15,Math,Friday14:00-16:00,Classroom B,Professor Liu,20,School of History,College of Arts,Jilin University
+16,Employment Guidance,Wednesday15:00-16:00,Classroom C,Professor Hu,50,School of History,College of Arts,Jilin University
+17,English,Monday9:00-12:00,Classroom A,Professor Wu,20,School of Literature,College of Arts,Jilin University
+18,Math,Friday14:00-16:00,Classroom B,Professor Liu,20,School of Literature,College of Arts,Jilin University
+19,Employment Guidance,Wednesday15:00-16:00,Classroom C,Professor Hu,50,School of Literature,College of Arts,Jilin University
+20,English,Monday9:00-12:00,Classroom A,Professor Wu,20,School of Environment,College of Earth Science,Jilin University
+21,Math,Friday14:00-16:00,Classroom B,Professor Liu,20,School of Environment,College of Earth Science,Jilin University
+22,Employment Guidance,Wednesday15:00-16:00,Classroom C,Professor Hu,50,School of Environment,College of Earth Science,Jilin University
+23,English,Monday9:00-12:00,Classroom A,Professor Wu,20,School of Resources,College of Earth Science,Jilin University
+24,Math,Friday14:00-16:00,Classroom B,Professor Liu,20,School of Resources,College of Earth Science,Jilin University
+25,Employment Guidance,Wednesday15:00-16:00,Classroom C,Professor Hu,50,School of Resources,College of Earth Science,Jilin University
+26,English,Monday9:00-12:00,Classroom A,Professor Wu,20,School of Electrical Engineering,College of Earth Science,Jilin University
+27,Math,Friday14:00-16:00,Classroom B,Professor Liu,20,School of Electrical Engineering,College of Earth Science,Jilin University
+28,Employment Guidance,Wednesday15:00-16:00,Classroom C,Professor Hu,50,School of Electrical Engineering,College of Earth Science,Jilin University
+29,English,Monday9:00-12:00,Classroom A,Professor Wu,20,School of Management,College of Engineering,Harbin Institute of Technology
+30,Math,Friday14:00-16:00,Classroom B,Professor Liu,20,School of Management,College of Engineering,Harbin Institute of Technology
+31,Employment Guidance,Wednesday15:00-16:00,Classroom C,Professor Hu,50,School of Management,College of Engineering,Harbin Institute of Technology
+32,English,Monday9:00-12:00,Classroom A,Professor Wu,20,School of Business,College of Engineering,Harbin Institute of Technology
+33,Math,Friday14:00-16:00,Classroom B,Professor Liu,20,School of Business,College of Engineering,Harbin Institute of Technology
+34,Employment Guidance,Wednesday15:00-16:00,Classroom C,Professor Hu,50,School of Business,College of Engineering,Harbin Institute of Technology
+35,English,Monday9:00-12:00,Classroom A,Professor Wu,20,School of Finance,College of Engineering,Harbin Institute of Technology
+36,Math,Friday14:00-16:00,Classroom B,Professor Liu,20,School of Finance,College of Engineering,Harbin Institute of Technology
+37,Employment Guidance,Wednesday15:00-16:00,Classroom C,Professor Hu,50,School of Finance,College of Engineering,Harbin Institute of Technology
+38,English,Monday9:00-12:00,Classroom A,Professor Wu,20,School of Humanities,College of Arts,Harbin Institute of Technology
+39,Math,Friday14:00-16:00,Classroom B,Professor Liu,20,School of Humanities,College of Arts,Harbin Institute of Technology
+40,Employment Guidance,Wednesday15:00-16:00,Classroom C,Professor Hu,50,School of Humanities,College of Arts,Harbin Institute of Technology
+41,English,Monday9:00-12:00,Classroom A,Professor Wu,20,School of History,College of Arts,Harbin Institute of Technology
+42,Math,Friday14:00-16:00,Classroom B,Professor Liu,20,School of History,College of Arts,Harbin Institute of Technology
+43,Employment Guidance,Wednesday15:00-16:00,Classroom C,Professor Hu,50,School of History,College of Arts,Harbin Institute of Technology
+44,English,Monday9:00-12:00,Classroom A,Professor Wu,20,School of Literature,College of Arts,Harbin Institute of Technology
+45,Math,Friday14:00-16:00,Classroom B,Professor Liu,20,School of Literature,College of Arts,Harbin Institute of Technology
+46,Employment Guidance,Wednesday15:00-16:00,Classroom C,Professor Hu,50,School of Literature,College of Arts,Harbin Institute of Technology
+47,English,Monday9:00-12:00,Classroom A,Professor Wu,20,School of Environment,College of Earth Science,Harbin Institute of Technology
+48,Math,Friday14:00-16:00,Classroom B,Professor Liu,20,School of Environment,College of Earth Science,Harbin Institute of Technology
+49,Employment Guidance,Wednesday15:00-16:00,Classroom C,Professor Hu,50,School of Environment,College of Earth Science,Harbin Institute of Technology
+50,English,Monday9:00-12:00,Classroom A,Professor Wu,20,School of Resources,College of Earth Science,Harbin Institute of Technology
+51,Math,Friday14:00-16:00,Classroom B,Professor Liu,20,School of Resources,College of Earth Science,Harbin Institute of Technology
+52,Employment Guidance,Wednesday15:00-16:00,Classroom C,Professor Hu,50,School of Resources,College of Earth Science,Harbin Institute of Technology
+53,English,Monday9:00-12:00,Classroom A,Professor Wu,20,School of Electrical Engineering,College of Earth Science,Harbin Institute of Technology
+54,Math,Friday14:00-16:00,Classroom B,Professor Liu,20,School of Electrical Engineering,College of Earth Science,Harbin Institute of Technology
+55,Employment Guidance,Wednesday15:00-16:00,Classroom C,Professor Hu,50,School of Electrical Engineering,College of Earth Science,Harbin Institute of Technology
+56,English,Monday9:00-12:00,Classroom A,Professor Wu,20,School of Management,College of Engineering,Shenyang University
+57,Math,Friday14:00-16:00,Classroom B,Professor Liu,20,School of Management,College of Engineering,Shenyang University
+58,Employment Guidance,Wednesday15:00-16:00,Classroom C,Professor Hu,50,School of Management,College of Engineering,Shenyang University
+59,English,Monday9:00-12:00,Classroom A,Professor Wu,20,School of Business,College of Engineering,Shenyang University
+60,Math,Friday14:00-16:00,Classroom B,Professor Liu,20,School of Business,College of Engineering,Shenyang University
+61,Employment Guidance,Wednesday15:00-16:00,Classroom C,Professor Hu,50,School of Business,College of Engineering,Shenyang University
+62,English,Monday9:00-12:00,Classroom A,Professor Wu,20,School of Finance,College of Engineering,Shenyang University
+63,Math,Friday14:00-16:00,Classroom B,Professor Liu,20,School of Finance,College of Engineering,Shenyang University
+64,Employment Guidance,Wednesday15:00-16:00,Classroom C,Professor Hu,50,School of Finance,College of Engineering,Shenyang University
+65,English,Monday9:00-12:00,Classroom A,Professor Wu,20,School of Humanities,College of Arts,Shenyang University
+66,Math,Friday14:00-16:00,Classroom B,Professor Liu,20,School of Humanities,College of Arts,Shenyang University
+67,Employment Guidance,Wednesday15:00-16:00,Classroom C,Professor Hu,50,School of Humanities,College of Arts,Shenyang University
+68,English,Monday9:00-12:00,Classroom A,Professor Wu,20,School of History,College of Arts,Shenyang University
+69,Math,Friday14:00-16:00,Classroom B,Professor Liu,20,School of History,College of Arts,Shenyang University
+70,Employment Guidance,Wednesday15:00-16:00,Classroom C,Professor Hu,50,School of History,College of Arts,Shenyang University
+71,English,Monday9:00-12:00,Classroom A,Professor Wu,20,School of Literature,College of Arts,Shenyang University
+72,Math,Friday14:00-16:00,Classroom B,Professor Liu,20,School of Literature,College of Arts,Shenyang University
+73,Employment Guidance,Wednesday15:00-16:00,Classroom C,Professor Hu,50,School of Literature,College of Arts,Shenyang University
+74,English,Monday9:00-12:00,Classroom A,Professor Wu,20,School of Environment,College of Earth Science,Shenyang University
+75,Math,Friday14:00-16:00,Classroom B,Professor Liu,20,School of Environment,College of Earth Science,Shenyang University
+76,Employment Guidance,Wednesday15:00-16:00,Classroom C,Professor Hu,50,School of Environment,College of Earth Science,Shenyang University
+77,English,Monday9:00-12:00,Classroom A,Professor Wu,20,School of Resources,College of Earth Science,Shenyang University
+78,Math,Friday14:00-16:00,Classroom B,Professor Liu,20,School of Resources,College of Earth Science,Shenyang University
+79,Employment Guidance,Wednesday15:00-16:00,Classroom C,Professor Hu,50,School of Resources,College of Earth Science,Shenyang University
+80,English,Monday9:00-12:00,Classroom A,Professor Wu,20,School of Electrical Engineering,College of Earth Science,Shenyang University
+81,Math,Friday14:00-16:00,Classroom B,Professor Liu,20,School of Electrical Engineering,College of Earth Science,Shenyang University
+82,Employment Guidance,Wednesday15:00-16:00,Classroom C,Professor Hu,50,School of Electrical Engineering,College of Earth Science,Shenyang University

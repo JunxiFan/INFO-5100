@@ -1,0 +1,58 @@
+Faculty,Part-time,Mr.Qian,School of Business,College of Engineering,Jilin University,Ph.D
+Faculty,Part-time,Mr.Sun,School of Finance,College of Engineering,Jilin University,N
+Faculty,Part-time,Mr.Li,School of Management,College of Engineering,Jilin University,Ph.D
+Faculty,Part-time,Mr.Li,School of Management,College of Engineering,Jilin University,N
+Faculty,Part-time,Mr.Zhao,School of Management,College of Arts,Jilin University,N
+Faculty,Full-time,Mr.Zhou,School of Finance,College of Engineering,Jilin University,N
+Faculty,Full-time,Mr.Wu,School of Humanities,College of Arts,Jilin University,N
+Faculty,Full-time,Mr.Qian,School of History,College of Arts,Jilin University,N
+Faculty,Full-time,Mr.Sun,School of Literature,College of Arts,Jilin University,N
+Faculty,Part-time,Mr.Zhao,School of Environment,College of Earth Science,Jilin University,N
+Faculty,Part-time,Mr.Qian,School of Resources,College of Earth Science,Jilin University,Ph.D
+Faculty,Full-time,Mr.Sun,School of Electrical Engineering,College of Earth Science,Jilin University,N
+Faculty,Full-time,Mr.Zhao,School of Management,College of Engineering,Harbin Institute of Technology,N
+Faculty,Full-time,Mr.Qian,School of Business,College of Engineering,Harbin Institute of Technology,N
+Faculty,Full-time,Mr.Sun,School of Finance,College of Engineering,Harbin Institute of Technology,N
+Faculty,Part-time,Mr.Zhao,School of Humanities,College of Arts,Harbin Institute of Technology,N
+Faculty,Part-time,Mr.Qian,School of History,College of Arts,Harbin Institute of Technology,N
+Faculty,Part-time,Mr.Sun,School of Literature,College of Arts,Harbin Institute of Technology,N
+Faculty,Part-time,Mr.Zhao,School of Environment,College of Earth Science,Harbin Institute of Technology,N
+Faculty,Full-time,Mr.Qian,School of Resources,College of Earth Science,Harbin Institute of Technology,N
+Faculty,Full-time,Mr.Sun,School of Electrical Engineering,College of Earth Science,Harbin Institute of Technology,N
+Faculty,Full-time,Mr.Zhao,School of Management,College of Engineering,Shenyang University,N
+Faculty,Full-time,Mr.Qian,School of Business,College of Engineering,Shenyang University,N
+Faculty,Full-time,Mr.Sun,School of Finance,College of Engineering,Shenyang University,N
+Faculty,Full-time,Mr.Zhao,School of Humanities,College of Arts,Shenyang University,N
+Faculty,Full-time,Mr.Qian,School of History,College of Arts,Shenyang University,N
+Faculty,Part-time,Mr.Sun,School of Literature,College of Arts,Shenyang University,N
+Faculty,Part-time,Mr.Zhao,School of Environment,College of Earth Science,Shenyang University,N
+Faculty,Part-time,Mr.Qian,School of Resources,College of Earth Science,Shenyang University,Ph.D
+Faculty,Part-time,Mr.Sun,School of Electrical Engineering,College of Earth Science,Shenyang University,N
+Staff,Full-time,Mr.Zhao,School of Management,College of Engineering,Jilin University,N
+Staff,Full-time,Mr.Qian,School of Business,College of Engineering,Jilin University,N
+Staff,Full-time,Mr.Sun,School of Finance,College of Engineering,Jilin University,N
+Staff,Full-time,Mr.Zhou,School of Finance,College of Engineering,Jilin University,N
+Staff,Full-time,Mr.Wu,School of Humanities,College of Arts,Jilin University,N
+Staff,Part-time,Mr.Qian,School of History,College of Arts,Jilin University,N
+Staff,Part-time,Mr.Sun,School of Literature,College of Arts,Jilin University,N
+Staff,Part-time,Mr.Zhao,School of Environment,College of Earth Science,Jilin University,Ph.D
+Staff,Part-time,Mr.Qian,School of Resources,College of Earth Science,Jilin University,N
+Staff,Part-time,Mr.Sun,School of Electrical Engineering,College of Earth Science,Jilin University,N
+Staff,Part-time,Mr.Zhao,School of Management,College of Engineering,Harbin Institute of Technology,N
+Staff,Full-time,Mr.Qian,School of Business,College of Engineering,Harbin Institute of Technology,N
+Staff,Full-time,Mr.Sun,School of Finance,College of Engineering,Harbin Institute of Technology,N
+Staff,Full-time,Mr.Zhao,School of Humanities,College of Arts,Harbin Institute of Technology,N
+Staff,Full-time,Mr.Qian,School of History,College of Arts,Harbin Institute of Technology,N
+Staff,Full-time,Mr.Sun,School of Literature,College of Arts,Harbin Institute of Technology,N
+Staff,Full-time,Mr.Zhao,School of Environment,College of Earth Science,Harbin Institute of Technology,Ph.D
+Staff,Part-time,Mr.Qian,School of Resources,College of Earth Science,Harbin Institute of Technology,N
+Staff,Part-time,Mr.Sun,School of Electrical Engineering,College of Earth Science,Harbin Institute of Technology,N
+Staff,Part-time,Mr.Zhao,School of Management,College of Engineering,Shenyang University,N
+Staff,Full-time,Mr.Qian,School of Business,College of Engineering,Shenyang University,N
+Staff,Full-time,Mr.Sun,School of Finance,College of Engineering,Shenyang University,N
+Staff,Full-time,Mr.Zhao,School of Humanities,College of Arts,Shenyang University,N
+Staff,Full-time,Mr.Qian,School of History,College of Arts,Shenyang University,Ph.D
+Staff,Full-time,Mr.Sun,School of Literature,College of Arts,Shenyang University,N
+Staff,Full-time,Mr.Zhao,School of Environment,College of Earth Science,Shenyang University,N
+Staff,Full-time,Mr.Qian,School of Resources,College of Earth Science,Shenyang University,N
+Staff,Full-time,Mr.Sun,School of Electrical Engineering,College of Earth Science,Shenyang University,N

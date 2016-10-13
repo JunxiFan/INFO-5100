@@ -14,11 +14,21 @@ public class CourseOffering {
     private String courseOfferingID;
     private String courseName;
     private String courseTime;
+    private String coursePlace;
     private String teacherName;
     private String capability;
     private String departmentName;
     private String collegeName;
     private String universityName;
+
+    public String getCoursePlace() {
+        return coursePlace;
+    }
+
+    public void setCoursePlace(String coursePlace) {
+        this.coursePlace = coursePlace;
+    }
+    
 
     public String getCourseOfferingID() {
         return courseOfferingID;

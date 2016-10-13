@@ -1,6 +1,7 @@
 ﻿English,core,School of Management,College of Engineering,Jilin University
 Math,core,School of Management,College of Engineering,Jilin University
 Employment Guidance,elective,School of Management,College of Engineering,Jilin University
+Business Trageties,elective,School of Management,College of Engineering,Jilin University
 English,core,School of Business,College of Engineering,Jilin University
 Math,core,School of Business,College of Engineering,Jilin University
 Employment Guidance,elective,School of Business,College of Engineering,Jilin University

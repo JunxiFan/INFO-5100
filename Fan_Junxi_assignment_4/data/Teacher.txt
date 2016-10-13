@@ -1,3 +1,82 @@
-﻿Mr.Wu,English,16465483159
-Mr.Liu,Math,17894217515
-Mr.Hu,Employment Guidance,15487921564
+﻿Professor Wu,English,School of Management,College of Engineering,Jilin University
+Professor Liu,Math,School of Management,College of Engineering,Jilin University
+Professor Hu,Employment Guidance,School of Management,College of Engineering,Jilin University
+Professor Zhang,Business Trageties,School of Management,College of Engineering,Jilin University
+Professor Wu,English,School of Business,College of Engineering,Jilin University
+Professor Liu,Math,School of Business,College of Engineering,Jilin University
+Professor Hu,Employment Guidance,School of Business,College of Engineering,Jilin University
+Professor Wu,English,School of Finance,College of Engineering,Jilin University
+Professor Liu,Math,School of Finance,College of Engineering,Jilin University
+Professor Hu,Employment Guidance,School of Finance,College of Engineering,Jilin University
+Professor Wu,English,School of Humanities,College of Arts,Jilin University
+Professor Liu,Math,School of Humanities,College of Arts,Jilin University
+Professor Hu,Employment Guidance,School of Humanities,College of Arts,Jilin University
+Professor Wu,English,School of History,College of Arts,Jilin University
+Professor Liu,Math,School of History,College of Arts,Jilin University
+Professor Hu,Employment Guidance,School of History,College of Arts,Jilin University
+Professor Wu,English,School of Literature,College of Arts,Jilin University
+Professor Liu,Math,School of Literature,College of Arts,Jilin University
+Professor Hu,Employment Guidance,School of Literature,College of Arts,Jilin University
+Professor Wu,English,School of Environment,College of Earth Science,Jilin University
+Professor Liu,Math,School of Environment,College of Earth Science,Jilin University
+Professor Hu,Employment Guidance,School of Environment,College of Earth Science,Jilin University
+Professor Wu,English,School of Resources,College of Earth Science,Jilin University
+Professor Liu,Math,School of Resources,College of Earth Science,Jilin University
+Professor Hu,Employment Guidance,School of Resources,College of Earth Science,Jilin University
+Professor Wu,English,School of Electrical Engineering,College of Earth Science,Jilin University
+Professor Liu,Math,School of Electrical Engineering,College of Earth Science,Jilin University
+Professor Hu,Employment Guidance,School of Electrical Engineering,College of Earth Science,Jilin University
+Professor Wu,English,School of Management,College of Engineering,Harbin Institute of Technology
+Professor Liu,Math,School of Management,College of Engineering,Harbin Institute of Technology
+Professor Hu,Employment Guidance,School of Management,College of Engineering,Harbin Institute of Technology
+Professor Wu,English,School of Business,College of Engineering,Harbin Institute of Technology
+Professor Liu,Math,School of Business,College of Engineering,Harbin Institute of Technology
+Professor Hu,Employment Guidance,School of Business,College of Engineering,Harbin Institute of Technology
+Professor Wu,English,School of Finance,College of Engineering,Harbin Institute of Technology
+Professor Liu,Math,School of Finance,College of Engineering,Harbin Institute of Technology
+Professor Hu,Employment Guidance,School of Finance,College of Engineering,Harbin Institute of Technology
+Professor Wu,English,School of Humanities,College of Arts,Harbin Institute of Technology
+Professor Liu,Math,School of Humanities,College of Arts,Harbin Institute of Technology
+Professor Hu,Employment Guidance,School of Humanities,College of Arts,Harbin Institute of Technology
+Professor Wu,English,School of History,College of Arts,Harbin Institute of Technology
+Professor Liu,Math,School of History,College of Arts,Harbin Institute of Technology
+Professor Hu,Employment Guidance,School of History,College of Arts,Harbin Institute of Technology
+Professor Wu,English,School of Literature,College of Arts,Harbin Institute of Technology
+Professor Liu,Math,School of Literature,College of Arts,Harbin Institute of Technology
+Professor Hu,Employment Guidance,School of Literature,College of Arts,Harbin Institute of Technology
+Professor Wu,English,School of Environment,College of Earth Science,Harbin Institute of Technology
+Professor Liu,Math,School of Environment,College of Earth Science,Harbin Institute of Technology
+Professor Hu,Employment Guidance,School of Environment,College of Earth Science,Harbin Institute of Technology
+Professor Wu,English,School of Resources,College of Earth Science,Harbin Institute of Technology
+Professor Liu,Math,School of Resources,College of Earth Science,Harbin Institute of Technology
+Professor Hu,Employment Guidance,School of Resources,College of Earth Science,Harbin Institute of Technology
+Professor Wu,English,School of Electrical Engineering,College of Earth Science,Harbin Institute of Technology
+Professor Liu,Math,School of Electrical Engineering,College of Earth Science,Harbin Institute of Technology
+Professor Hu,Employment Guidance,School of Electrical Engineering,College of Earth Science,Harbin Institute of Technology
+Professor Wu,English,School of Management,College of Engineering,Shenyang University
+Professor Liu,Math,School of Management,College of Engineering,Shenyang University
+Professor Hu,Employment Guidance,School of Management,College of Engineering,Shenyang University
+Professor Wu,English,School of Business,College of Engineering,Shenyang University
+Professor Liu,Math,School of Business,College of Engineering,Shenyang University
+Professor Hu,Employment Guidance,School of Business,College of Engineering,Shenyang University
+Professor Wu,English,School of Finance,College of Engineering,Shenyang University
+Professor Liu,Math,School of Finance,College of Engineering,Shenyang University
+Professor Hu,Employment Guidance,School of Finance,College of Engineering,Shenyang University
+Professor Wu,English,School of Humanities,College of Arts,Shenyang University
+Professor Liu,Math,School of Humanities,College of Arts,Shenyang University
+Professor Hu,Employment Guidance,School of Humanities,College of Arts,Shenyang University
+Professor Wu,English,School of History,College of Arts,Shenyang University
+Professor Liu,Math,School of History,College of Arts,Shenyang University
+Professor Hu,Employment Guidance,School of History,College of Arts,Shenyang University
+Professor Wu,English,School of Literature,College of Arts,Shenyang University
+Professor Liu,Math,School of Literature,College of Arts,Shenyang University
+Professor Hu,Employment Guidance,School of Literature,College of Arts,Shenyang University
+Professor Wu,English,School of Environment,College of Earth Science,Shenyang University
+Professor Liu,Math,School of Environment,College of Earth Science,Shenyang University
+Professor Hu,Employment Guidance,School of Environment,College of Earth Science,Shenyang University
+Professor Wu,English,School of Resources,College of Earth Science,Shenyang University
+Professor Liu,Math,School of Resources,College of Earth Science,Shenyang University
+Professor Hu,Employment Guidance,School of Resources,College of Earth Science,Shenyang University
+Professor Wu,English,School of Electrical Engineering,College of Earth Science,Shenyang University
+Professor Liu,Math,School of Electrical Engineering,College of Earth Science,Shenyang University
+Professor Hu,Employment Guidance,School of Electrical Engineering,College of Earth Science,Shenyang University

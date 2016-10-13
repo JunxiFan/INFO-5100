@@ -15,6 +15,7 @@ public class Degree {
     private String departmentName;
     private String collegeName;
     private String universityName;
+    private String degreeRequirment;
 
     public String getDegreeName() {
         return degreeName;
@@ -46,6 +47,14 @@ public class Degree {
 
     public void setUniversityName(String universityName) {
         this.universityName = universityName;
+    }
+
+    public String getDegreeRequirment() {
+        return degreeRequirment;
+    }
+
+    public void setDegreeRequirment(String degreeRequirment) {
+        this.degreeRequirment = degreeRequirment;
     }
     
     

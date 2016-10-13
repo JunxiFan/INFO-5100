@@ -27,4 +27,5 @@ public class CourseCatalog {
         courseCatalog.add(course);
         return course;
     }
+    
 }

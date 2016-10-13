@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="assignment_4">
+  <ClassDiagramComponents>
+    <Class name="College" package="Business" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="universityName" type="String" visibility="private"/>
+        <Field name="collegeName" type="String" visibility="private"/>
+        <Field name="departmentCatalog" type="DepartmentCatalog" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getUniversityName" returnType="String" visibility="public"/>
+        <Method name="setUniversityName" returnType="void" visibility="public">
+          <Argument type="String" name="universityName"/>
+        </Method>
+        <Method name="getCollegeName" returnType="String" visibility="public"/>
+        <Method name="setCollegeName" returnType="void" visibility="public">
+          <Argument type="String" name="collegeName"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="CollegeCatalog" package="Business" visibility="public" xPosition="320.0" yPosition="20.0">
+      <Fields>
+        <Field name="collegeCatalog" type="ArrayList&lt;College&gt;" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getCollegeCatalog" returnType="ArrayList&lt;College&gt;" visibility="public"/>
+        <Method name="setCollegeCatalog" returnType="void" visibility="public">
+          <Argument type="ArrayList&lt;College&gt;" name="collegeCatalog"/>
+        </Method>
+        <Method name="addCollege" returnType="College" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="CollegeStudentCatalog" package="Business" visibility="public" xPosition="620.0" yPosition="20.0">
+      <Fields>
+        <Field name="collegeStudentCatalog" type="ArrayList&lt;Student&gt;" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getStudentCatalog" returnType="ArrayList&lt;Student&gt;" visibility="public"/>
+        <Method name="addStudent" returnType="Student" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Department" package="Business" visibility="public" xPosition="920.0" yPosition="20.0">
+      <Fields>
+        <Field name="departmentName" type="String" visibility="private"/>
+        <Field name="collegeName" type="String" visibility="private"/>
+        <Field name="universityName" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="getDepartmentName" returnType="String" visibility="public"/>
+        <Method name="setDepartmentName" returnType="void" visibility="public">
+          <Argument type="String" name="departmentName"/>
+        </Method>
+        <Method name="getCollegeName" returnType="String" visibility="public"/>
+        <Method name="setCollegeName" returnType="void" visibility="public">
+          <Argument type="String" name="collegeName"/>
+        </Method>
+        <Method name="getUniversityName" returnType="String" visibility="public"/>
+        <Method name="setUniversityName" returnType="void" visibility="public">
+          <Argument type="String" name="universityName"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="DepartmentCatalog" package="Business" visibility="public" xPosition="1220.0" yPosition="20.0">
+      <Fields>
+        <Field name="departmentCatalog" type="ArrayList&lt;Department&gt;" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getDepartmentCatalog" returnType="ArrayList&lt;Department&gt;" visibility="public"/>
+        <Method name="addDepartment" returnType="Department" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Classroom" package="Business.DepartmentRole" visibility="public" xPosition="1520.0" yPosition="20.0">
+      <Fields>
+        <Field name="classroom" type="String" visibility="private"/>
+        <Field name="building" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="getClassroom" returnType="String" visibility="public"/>
+        <Method name="setClassroom" returnType="void" visibility="public">
+          <Argument type="String" name="classroom"/>
+        </Method>
+        <Method name="getBuilding" returnType="String" visibility="public"/>
+        <Method name="setBuilding" returnType="void" visibility="public">
+          <Argument type="String" name="building"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="ClassroomCatalog" package="Business.DepartmentRole" visibility="public" xPosition="1820.0" yPosition="20.0">
+      <Fields>
+        <Field name="classroomCatalog" type="ArrayList&lt;Classroom&gt;" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getClassroomCatalog" returnType="ArrayList&lt;Classroom&gt;" visibility="public"/>
+        <Method name="addClassroom" returnType="Classroom" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Course" package="Business.DepartmentRole" visibility="public" xPosition="2120.0" yPosition="20.0">
+      <Fields>
+        <Field name="courseName" type="String" visibility="private"/>
+        <Field name="courseType" type="String" visibility="private"/>
+        <Field name="departmentName" type="String" visibility="private"/>
+        <Field name="collegeName" type="String" visibility="private"/>
+        <Field name="universityName" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="getCourseType" returnType="String" visibility="public"/>
+        <Method name="setCourseType" returnType="void" visibility="public">
+          <Argument type="String" name="courseType"/>
+        </Method>
+        <Method name="getCourseName" returnType="String" visibility="public"/>
+        <Method name="setCourseName" returnType="void" visibility="public">
+          <Argument type="String" name="courseName"/>
+        </Method>
+        <Method name="getDepartmentName" returnType="String" visibility="public"/>
+        <Method name="setDepartmentName" returnType="void" visibility="public">
+          <Argument type="String" name="departmentName"/>
+        </Method>
+        <Method name="getCollegeName" returnType="String" visibility="public"/>
+        <Method name="setCollegeName" returnType="void" visibility="public">
+          <Argument type="String" name="collegeName"/>
+        </Method>
+        <Method name="getUniversityName" returnType="String" visibility="public"/>
+        <Method name="setUniversityName" returnType="void" visibility="public">
+          <Argument type="String" name="universityName"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="CourseCatalog" package="Business.DepartmentRole" visibility="public" xPosition="20.0" yPosition="420.0">
+      <Fields>
+        <Field name="courseCatalog" type="ArrayList&lt;Course&gt;" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getCourseCatalog" returnType="ArrayList&lt;Course&gt;" visibility="public"/>
+        <Method name="addCourse" returnType="Course" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="CourseLoad" package="Business.DepartmentRole" visibility="public" xPosition="320.0" yPosition="420.0">
+      <Fields>
+        <Field name="stuID" type="String" visibility="private"/>
+        <Field name="courseID1" type="String" visibility="private"/>
+        <Field name="courseID2" type="String" visibility="private"/>
+        <Field name="courseID3" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="getStuID" returnType="String" visibility="public"/>
+        <Method name="setStuID" returnType="void" visibility="public">
+          <Argument type="String" name="stuID"/>
+        </Method>
+        <Method name="getCourseID1" returnType="String" visibility="public"/>
+        <Method name="setCourseID1" returnType="void" visibility="public">
+          <Argument type="String" name="courseID1"/>
+        </Method>
+        <Method name="getCourseID2" returnType="String" visibility="public"/>
+        <Method name="setCourseID2" returnType="void" visibility="public">
+          <Argument type="String" name="courseID2"/>
+        </Method>
+        <Method name="getCourseID3" returnType="String" visibility="public"/>
+        <Method name="setCourseID3" returnType="void" visibility="public">
+          <Argument type="String" name="courseID3"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="CourseLoadCatalog" package="Business.DepartmentRole" visibility="public" xPosition="620.0" yPosition="420.0">
+      <Fields>
+        <Field name="courseLoadCatalog" type="ArrayList&lt;CourseLoad&gt;" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getCourseLoadCatalog" returnType="ArrayList&lt;CourseLoad&gt;" visibility="public"/>
+        <Method name="addCourseLoad" returnType="CourseLoad" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="CourseOffering" package="Business.DepartmentRole" visibility="public" xPosition="920.0" yPosition="420.0">
+      <Fields>
+        <Field name="courseOfferingID" type="String" visibility="private"/>
+        <Field name="courseName" type="String" visibility="private"/>
+        <Field name="courseTime" type="String" visibility="private"/>
+        <Field name="coursePlace" type="String" visibility="private"/>
+        <Field name="teacherName" type="String" visibility="private"/>
+        <Field name="capability" type="String" visibility="private"/>
+        <Field name="departmentName" type="String" visibility="private"/>
+        <Field name="collegeName" type="String" visibility="private"/>
+        <Field name="universityName" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="getCoursePlace" returnType="String" visibility="public"/>
+        <Method name="setCoursePlace" returnType="void" visibility="public">
+          <Argument type="String" name="coursePlace"/>
+        </Method>
+        <Method name="getCourseOfferingID" returnType="String" visibility="public"/>
+        <Method name="setCourseOfferingID" returnType="void" visibility="public">
+          <Argument type="String" name="courseOfferingID"/>
+        </Method>
+        <Method name="getCourseName" returnType="String" visibility="public"/>
+        <Method name="setCourseName" returnType="void" visibility="public">
+          <Argument type="String" name="courseName"/>
+        </Method>
+        <Method name="getCourseTime" returnType="String" visibility="public"/>
+        <Method name="setCourseTime" returnType="void" visibility="public">
+          <Argument type="String" name="courseTime"/>
+        </Method>
+        <Method name="getTeacherName" returnType="String" visibility="public"/>
+        <Method name="setTeacherName" returnType="void" visibility="public">
+          <Argument type="String" name="teacherName"/>
+        </Method>
+        <Method name="getCapability" returnType="String" visibility="public"/>
+        <Method name="setCapability" returnType="void" visibility="public">
+          <Argument type="String" name="capability"/>
+        </Method>
+        <Method name="getDepartmentName" returnType="String" visibility="public"/>
+        <Method name="setDepartmentName" returnType="void" visibility="public">
+          <Argument type="String" name="departmentName"/>
+        </Method>
+        <Method name="getCollegeName" returnType="String" visibility="public"/>
+        <Method name="setCollegeName" returnType="void" visibility="public">
+          <Argument type="String" name="collegeName"/>
+        </Method>
+        <Method name="getUniversityName" returnType="String" visibility="public"/>
+        <Method name="setUniversityName" returnType="void" visibility="public">
+          <Argument type="String" name="universityName"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="CourseOfferingCatalog" package="Business.DepartmentRole" visibility="public" xPosition="1220.0" yPosition="420.0">
+      <Fields>
+        <Field name="courseOfferingCatalog" type="ArrayList&lt;CourseOffering&gt;" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getCourseOfferingCatalog" returnType="ArrayList&lt;CourseOffering&gt;" visibility="public"/>
+        <Method name="addCourseOffering" returnType="CourseOffering" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Degree" package="Business.DepartmentRole" visibility="public" xPosition="1520.0" yPosition="420.0">
+      <Fields>
+        <Field name="degreeName" type="String" visibility="private"/>
+        <Field name="departmentName" type="String" visibility="private"/>
+        <Field name="collegeName" type="String" visibility="private"/>
+        <Field name="universityName" type="String" visibility="private"/>
+        <Field name="degreeRequirment" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="getDegreeName" returnType="String" visibility="public"/>
+        <Method name="setDegreeName" returnType="void" visibility="public">
+          <Argument type="String" name="degreeName"/>
+        </Method>
+        <Method name="getDepartmentName" returnType="String" visibility="public"/>
+        <Method name="setDepartmentName" returnType="void" visibility="public">
+          <Argument type="String" name="departmentName"/>
+        </Method>
+        <Method name="getCollegeName" returnType="String" visibility="public"/>
+        <Method name="setCollegeName" returnType="void" visibility="public">
+          <Argument type="String" name="collegeName"/>
+        </Method>
+        <Method name="getUniversityName" returnType="String" visibility="public"/>
+        <Method name="setUniversityName" returnType="void" visibility="public">
+          <Argument type="String" name="universityName"/>
+        </Method>
+        <Method name="getDegreeRequirment" returnType="String" visibility="public"/>
+        <Method name="setDegreeRequirment" returnType="void" visibility="public">
+          <Argument type="String" name="degreeRequirment"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="DegreeCatalog" package="Business.DepartmentRole" visibility="public" xPosition="1820.0" yPosition="420.0">
+      <Fields>
+        <Field name="degreeCatalog" type="ArrayList&lt;Degree&gt;" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getDegreeCatalog" returnType="ArrayList&lt;Degree&gt;" visibility="public"/>
+        <Method name="addDegree" returnType="Degree" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="DepartmentCourseCatalog" package="Business.DepartmentRole" visibility="public" xPosition="2120.0" yPosition="420.0">
+      <Fields>
+        <Field name="DepartmentCourseCatalog" type="ArrayList&lt;Course&gt;" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getCourseCatalog" returnType="ArrayList&lt;Course&gt;" visibility="public"/>
+        <Method name="addCourse" returnType="Course" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="DepartmentCourseSchedule" package="Business.DepartmentRole" visibility="public" xPosition="20.0" yPosition="820.0">
+      <Fields>
+        <Field name="DepartmentCourseSchedule" type="ArrayList&lt;CourseOffering&gt;" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getCourseSchedule" returnType="ArrayList&lt;CourseOffering&gt;" visibility="public"/>
+        <Method name="addCourseOffering" returnType="CourseOffering" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Role" package="Business.DepartmentRole" visibility="public" xPosition="320.0" yPosition="820.0">
+      <Fields>
+        <Field name="roleTyepe" type="String" visibility="private"/>
+        <Field name="roleWorkTime" type="String" visibility="private"/>
+        <Field name="roleName" type="String" visibility="private"/>
+        <Field name="departmentName" type="String" visibility="private"/>
+        <Field name="collegeName" type="String" visibility="private"/>
+        <Field name="universityName" type="String" visibility="private"/>
+        <Field name="phD" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="getPhD" returnType="String" visibility="public"/>
+        <Method name="setPhD" returnType="void" visibility="public">
+          <Argument type="String" name="phD"/>
+        </Method>
+        <Method name="getRoleWorkTime" returnType="String" visibility="public"/>
+        <Method name="setRoleWorkTime" returnType="void" visibility="public">
+          <Argument type="String" name="roleWorkTime"/>
+        </Method>
+        <Method name="getRoleTyepe" returnType="String" visibility="public"/>
+        <Method name="setRoleTyepe" returnType="void" visibility="public">
+          <Argument type="String" name="roleTyepe"/>
+        </Method>
+        <Method name="getRoleName" returnType="String" visibility="public"/>
+        <Method name="setRoleName" returnType="void" visibility="public">
+          <Argument type="String" name="roleName"/>
+        </Method>
+        <Method name="getDepartmentName" returnType="String" visibility="public"/>
+        <Method name="setDepartmentName" returnType="void" visibility="public">
+          <Argument type="String" name="departmentName"/>
+        </Method>
+        <Method name="getCollegeName" returnType="String" visibility="public"/>
+        <Method name="setCollegeName" returnType="void" visibility="public">
+          <Argument type="String" name="collegeName"/>
+        </Method>
+        <Method name="getUniversityName" returnType="String" visibility="public"/>
+        <Method name="setUniversityName" returnType="void" visibility="public">
+          <Argument type="String" name="universityName"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="RoleCatalog" package="Business.DepartmentRole" visibility="public" xPosition="620.0" yPosition="820.0">
+      <Fields>
+        <Field name="roleCatalog" type="ArrayList&lt;Role&gt;" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getRoleCatalog" returnType="ArrayList&lt;Role&gt;" visibility="public"/>
+        <Method name="addRole" returnType="Role" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Seat" package="Business.DepartmentRole" visibility="public" xPosition="920.0" yPosition="820.0">
+      <Fields>
+        <Field name="semesterName" type="String" visibility="private"/>
+        <Field name="courseOfferingID" type="String" visibility="private"/>
+        <Field name="seatNum" type="int" visibility="private"/>
+        <Field name="count" type="int" visibility="private" isStatic="true"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getSemesterName" returnType="String" visibility="public"/>
+        <Method name="setSemesterName" returnType="void" visibility="public">
+          <Argument type="String" name="semesterName"/>
+        </Method>
+        <Method name="getCourseOfferingID" returnType="String" visibility="public"/>
+        <Method name="setCourseOfferingID" returnType="void" visibility="public">
+          <Argument type="String" name="courseOfferingID"/>
+        </Method>
+        <Method name="getSeatNum" returnType="int" visibility="public"/>
+        <Method name="setSeatNum" returnType="void" visibility="public">
+          <Argument type="int" name="seatNum"/>
+        </Method>
+        <Method name="getCount" returnType="int" visibility="public" isStatic="true"/>
+        <Method name="setCount" returnType="void" visibility="public" isStatic="true">
+          <Argument type="int" name="count"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="SeatCatalog" package="Business.DepartmentRole" visibility="public" xPosition="1220.0" yPosition="820.0">
+      <Fields>
+        <Field name="seatCatalog" type="ArrayList&lt;Seat&gt;" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getSeatCatalog" returnType="ArrayList&lt;Seat&gt;" visibility="public"/>
+        <Method name="addSeat" returnType="Seat" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Semester" package="Business.DepartmentRole" visibility="public" xPosition="1520.0" yPosition="820.0">
+      <Fields>
+        <Field name="semesterName" type="String" visibility="private"/>
+        <Field name="courseName" type="String" visibility="private"/>
+        <Field name="courseType" type="String" visibility="private"/>
+        <Field name="departmentName" type="String" visibility="private"/>
+        <Field name="collegeName" type="String" visibility="private"/>
+        <Field name="universityName" type="String" visibility="private"/>
+        <Field name="courseRequirement" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="getSemesterName" returnType="String" visibility="public"/>
+        <Method name="setSemesterName" returnType="void" visibility="public">
+          <Argument type="String" name="semesterName"/>
+        </Method>
+        <Method name="getCourseName" returnType="String" visibility="public"/>
+        <Method name="setCourseName" returnType="void" visibility="public">
+          <Argument type="String" name="courseName"/>
+        </Method>
+        <Method name="getCourseType" returnType="String" visibility="public"/>
+        <Method name="setCourseType" returnType="void" visibility="public">
+          <Argument type="String" name="courseType"/>
+        </Method>
+        <Method name="getDepartmentName" returnType="String" visibility="public"/>
+        <Method name="setDepartmentName" returnType="void" visibility="public">
+          <Argument type="String" name="departmentName"/>
+        </Method>
+        <Method name="getCollegeName" returnType="String" visibility="public"/>
+        <Method name="setCollegeName" returnType="void" visibility="public">
+          <Argument type="String" name="collegeName"/>
+        </Method>
+        <Method name="getUniversityName" returnType="String" visibility="public"/>
+        <Method name="setUniversityName" returnType="void" visibility="public">
+          <Argument type="String" name="universityName"/>
+        </Method>
+        <Method name="getCourseRequirement" returnType="String" visibility="public"/>
+        <Method name="setCourseRequirement" returnType="void" visibility="public">
+          <Argument type="String" name="courseRequirement"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="SemesterCatalog" package="Business.DepartmentRole" visibility="public" xPosition="1820.0" yPosition="820.0">
+      <Fields>
+        <Field name="semesterCatalog" type="ArrayList&lt;Semester&gt;" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getSemesterCatalog" returnType="ArrayList&lt;Semester&gt;" visibility="public"/>
+        <Method name="addSemester" returnType="Semester" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Teacher" package="Business.DepartmentRole" visibility="public" xPosition="2120.0" yPosition="820.0">
+      <Fields>
+        <Field name="teacherName" type="String" visibility="private"/>
+        <Field name="course" type="String" visibility="private"/>
+        <Field name="departmentName" type="String" visibility="private"/>
+        <Field name="collegeName" type="String" visibility="private"/>
+        <Field name="universityName" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="getTeacherName" returnType="String" visibility="public"/>
+        <Method name="setTeacherName" returnType="void" visibility="public">
+          <Argument type="String" name="teacherName"/>
+        </Method>
+        <Method name="getCourse" returnType="String" visibility="public"/>
+        <Method name="setCourse" returnType="void" visibility="public">
+          <Argument type="String" name="course"/>
+        </Method>
+        <Method name="getDepartmentName" returnType="String" visibility="public"/>
+        <Method name="setDepartmentName" returnType="void" visibility="public">
+          <Argument type="String" name="departmentName"/>
+        </Method>
+        <Method name="getCollegeName" returnType="String" visibility="public"/>
+        <Method name="setCollegeName" returnType="void" visibility="public">
+          <Argument type="String" name="collegeName"/>
+        </Method>
+        <Method name="getUniversityName" returnType="String" visibility="public"/>
+        <Method name="setUniversityName" returnType="void" visibility="public">
+          <Argument type="String" name="universityName"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="TeacherCatalog" package="Business.DepartmentRole" visibility="public" xPosition="20.0" yPosition="1220.0">
+      <Fields>
+        <Field name="teacherCatalog" type="ArrayList&lt;Teacher&gt;" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getTeacherCatalog" returnType="ArrayList&lt;Teacher&gt;" visibility="public"/>
+        <Method name="addTeacher" returnType="Teacher" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Transcript" package="Business.DepartmentRole" visibility="public" xPosition="320.0" yPosition="1220.0">
+      <Fields>
+        <Field name="stuID" type="String" visibility="private"/>
+        <Field name="courseGrade1" type="String" visibility="private"/>
+        <Field name="courseGrade2" type="String" visibility="private"/>
+        <Field name="courseGrade3" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="getStuID" returnType="String" visibility="public"/>
+        <Method name="setStuID" returnType="void" visibility="public">
+          <Argument type="String" name="stuID"/>
+        </Method>
+        <Method name="getCourseGrade1" returnType="String" visibility="public"/>
+        <Method name="setCourseGrade1" returnType="void" visibility="public">
+          <Argument type="String" name="courseGrade1"/>
+        </Method>
+        <Method name="getCourseGrade2" returnType="String" visibility="public"/>
+        <Method name="setCourseGrade2" returnType="void" visibility="public">
+          <Argument type="String" name="courseGrade2"/>
+        </Method>
+        <Method name="getCourseGrade3" returnType="String" visibility="public"/>
+        <Method name="setCourseGrade3" returnType="void" visibility="public">
+          <Argument type="String" name="courseGrade3"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="TranscriptCatalog" package="Business.DepartmentRole" visibility="public" xPosition="620.0" yPosition="1220.0">
+      <Fields>
+        <Field name="transcriptCatalog" type="ArrayList&lt;Transcript&gt;" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getTranscriptCatalog" returnType="ArrayList&lt;Transcript&gt;" visibility="public"/>
+        <Method name="addTranscript" returnType="Transcript" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="DepartmentStudentCatalog" package="Business" visibility="public" xPosition="920.0" yPosition="1220.0">
+      <Fields>
+        <Field name="departmentStudentCatalog" type="ArrayList&lt;Student&gt;" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getStudentCatalog" returnType="ArrayList&lt;Student&gt;" visibility="public"/>
+        <Method name="addStudent" returnType="Student" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Initialization" package="Business" visibility="public" xPosition="1220.0" yPosition="1220.0">
+      <Fields>
+        <Field name="universityCatalog" type="UniversityCatalog" visibility="package"/>
+        <Field name="courseCatalog" type="CourseCatalog" visibility="package"/>
+        <Field name="semesterCatalog" type="SemesterCatalog" visibility="package"/>
+        <Field name="degreeCatalog" type="DegreeCatalog" visibility="package"/>
+        <Field name="courseOfferingCatalog" type="CourseOfferingCatalog" visibility="package"/>
+        <Field name="courseLoadcatalog" type="CourseLoadCatalog" visibility="package"/>
+        <Field name="studentCatalog" type="StudentCatalog" visibility="package"/>
+        <Field name="teacherCatalog" type="TeacherCatalog" visibility="package"/>
+        <Field name="roleCatalog" type="RoleCatalog" visibility="package"/>
+        <Field name="transcriptCatalog" type="TranscriptCatalog" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="UniversityCatalog" name="uc"/>
+          <Argument type="CourseCatalog" name="cc"/>
+          <Argument type="SemesterCatalog" name="sc"/>
+          <Argument type="DegreeCatalog" name="dc"/>
+          <Argument type="CourseOfferingCatalog" name="coc"/>
+          <Argument type="CourseLoadCatalog" name="clc"/>
+          <Argument type="StudentCatalog" name="stuC"/>
+          <Argument type="TeacherCatalog" name="tc"/>
+          <Argument type="RoleCatalog" name="rc"/>
+          <Argument type="TranscriptCatalog" name="transC"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="initialTranscript" returnType="void" visibility="private">
+          <Argument type="String" name="s"/>
+        </Method>
+        <Method name="initialRole" returnType="void" visibility="private">
+          <Argument type="String" name="s"/>
+        </Method>
+        <Method name="initialStudent" returnType="void" visibility="private">
+          <Argument type="String" name="s"/>
+        </Method>
+        <Method name="initialTeacher" returnType="void" visibility="private">
+          <Argument type="String" name="s"/>
+        </Method>
+        <Method name="initialCourseLoad" returnType="void" visibility="private">
+          <Argument type="String" name="s"/>
+        </Method>
+        <Method name="initialUniversity" returnType="void" visibility="private">
+          <Argument type="String" name="s"/>
+        </Method>
+        <Method name="initialCourse" returnType="void" visibility="private">
+          <Argument type="String" name="s"/>
+        </Method>
+        <Method name="initialSemeter" returnType="void" visibility="private">
+          <Argument type="String" name="s"/>
+        </Method>
+        <Method name="initialDegree" returnType="void" visibility="private">
+          <Argument type="String" name="s"/>
+        </Method>
+        <Method name="initialCourseOffering" returnType="void" visibility="private">
+          <Argument type="String" name="s"/>
+        </Method>
+        <Method name="readfile" returnType="BufferedReader" visibility="private">
+          <Argument type="String" name="s"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Student" package="Business" visibility="public" xPosition="1520.0" yPosition="1220.0">
+      <Fields>
+        <Field name="stuId" type="String" visibility="private"/>
+        <Field name="stuName" type="String" visibility="private"/>
+        <Field name="departmentName" type="String" visibility="private"/>
+        <Field name="collegeName" type="String" visibility="private"/>
+        <Field name="universityName" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="getStuId" returnType="String" visibility="public"/>
+        <Method name="setStuId" returnType="void" visibility="public">
+          <Argument type="String" name="stuId"/>
+        </Method>
+        <Method name="getStuName" returnType="String" visibility="public"/>
+        <Method name="setStuName" returnType="void" visibility="public">
+          <Argument type="String" name="stuName"/>
+        </Method>
+        <Method name="getDepartmentName" returnType="String" visibility="public"/>
+        <Method name="setDepartmentName" returnType="void" visibility="public">
+          <Argument type="String" name="departmentName"/>
+        </Method>
+        <Method name="getCollegeName" returnType="String" visibility="public"/>
+        <Method name="setCollegeName" returnType="void" visibility="public">
+          <Argument type="String" name="collegeName"/>
+        </Method>
+        <Method name="getUniversityName" returnType="String" visibility="public"/>
+        <Method name="setUniversityName" returnType="void" visibility="public">
+          <Argument type="String" name="universityName"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="StudentCatalog" package="Business" visibility="public" xPosition="1820.0" yPosition="1220.0">
+      <Fields>
+        <Field name="studentCatalog" type="ArrayList&lt;Student&gt;" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getStudentCatalog" returnType="ArrayList&lt;Student&gt;" visibility="public"/>
+        <Method name="addStudent" returnType="Student" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="University" package="Business" visibility="public" xPosition="2120.0" yPosition="1220.0">
+      <Fields>
+        <Field name="universityName" type="String" visibility="private"/>
+        <Field name="address" type="String" visibility="private"/>
+        <Field name="collegecatalog" type="CollegeCatalog" visibility="private"/>
+        <Field name="universityStudentCatalog" type="UniversityStudentCatalog" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getUniversityName" returnType="String" visibility="public"/>
+        <Method name="setUniversityName" returnType="void" visibility="public">
+          <Argument type="String" name="universityName"/>
+        </Method>
+        <Method name="getAddress" returnType="String" visibility="public"/>
+        <Method name="setAddress" returnType="void" visibility="public">
+          <Argument type="String" name="address"/>
+        </Method>
+        <Method name="getCollegecatalog" returnType="CollegeCatalog" visibility="public"/>
+        <Method name="getUniversityStudentCatalog" returnType="UniversityStudentCatalog" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="UniversityCatalog" package="Business" visibility="public" xPosition="20.0" yPosition="1620.0">
+      <Fields>
+        <Field name="universityCatalog" type="ArrayList&lt;University&gt;" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getUniversityCatalog" returnType="ArrayList&lt;University&gt;" visibility="public"/>
+        <Method name="addUniversity" returnType="University" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="UniversityStudentCatalog" package="Business" visibility="public" xPosition="320.0" yPosition="1620.0">
+      <Fields>
+        <Field name="universityStudentCatalog" type="ArrayList&lt;Student&gt;" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getStudentCatalog" returnType="ArrayList&lt;Student&gt;" visibility="public"/>
+        <Method name="addStudent" returnType="Student" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Report" package="UserInterface" visibility="public" xPosition="620.0" yPosition="1620.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <HasRelation name="teacherCatalog" source="Business.DepartmentRole.TeacherCatalog" target="Business.DepartmentRole.Teacher" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;Teacher&gt;"/>
+    <UseRelation source="Business.University" target="Business.UniversityStudentCatalog" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="Business.DepartmentRole.SeatCatalog" target="Business.DepartmentRole.Seat" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="studentCatalog" source="Business.Initialization" target="Business.StudentCatalog" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="universityCatalog" source="Business.UniversityCatalog" target="Business.University" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;University&gt;"/>
+    <UseRelation source="Business.DepartmentRole.CourseLoadCatalog" target="Business.DepartmentRole.CourseLoad" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="degreeCatalog" source="Business.DepartmentRole.DegreeCatalog" target="Business.DepartmentRole.Degree" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;Degree&gt;"/>
+    <UseRelation source="Business.DepartmentRole.SemesterCatalog" target="Business.DepartmentRole.Semester" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="transcriptCatalog" source="Business.Initialization" target="Business.DepartmentRole.TranscriptCatalog" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="classroomCatalog" source="Business.DepartmentRole.ClassroomCatalog" target="Business.DepartmentRole.Classroom" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;Classroom&gt;"/>
+    <HasRelation name="courseLoadCatalog" source="Business.DepartmentRole.CourseLoadCatalog" target="Business.DepartmentRole.CourseLoad" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;CourseLoad&gt;"/>
+    <HasRelation name="courseCatalog" source="Business.Initialization" target="Business.DepartmentRole.CourseCatalog" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="courseOfferingCatalog" source="Business.DepartmentRole.CourseOfferingCatalog" target="Business.DepartmentRole.CourseOffering" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;CourseOffering&gt;"/>
+    <HasRelation name="universityCatalog" source="Business.Initialization" target="Business.UniversityCatalog" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="Business.DepartmentRole.DepartmentCourseSchedule" target="Business.DepartmentRole.CourseOffering" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="degreeCatalog" source="Business.Initialization" target="Business.DepartmentRole.DegreeCatalog" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="seatCatalog" source="Business.DepartmentRole.SeatCatalog" target="Business.DepartmentRole.Seat" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;Seat&gt;"/>
+    <UseRelation source="Business.DepartmentRole.DegreeCatalog" target="Business.DepartmentRole.Degree" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="courseOfferingCatalog" source="Business.Initialization" target="Business.DepartmentRole.CourseOfferingCatalog" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="Business.DepartmentRole.DepartmentCourseCatalog" target="Business.DepartmentRole.Course" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="Business.UniversityStudentCatalog" target="Business.Student" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="departmentCatalog" source="Business.College" target="Business.DepartmentCatalog" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="collegeCatalog" source="Business.CollegeCatalog" target="Business.College" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;College&gt;"/>
+    <HasRelation name="universityStudentCatalog" source="Business.UniversityStudentCatalog" target="Business.Student" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;Student&gt;"/>
+    <HasRelation name="roleCatalog" source="Business.Initialization" target="Business.DepartmentRole.RoleCatalog" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="Business.DepartmentRole.CourseCatalog" target="Business.DepartmentRole.Course" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="Business.DepartmentRole.ClassroomCatalog" target="Business.DepartmentRole.Classroom" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="semesterCatalog" source="Business.Initialization" target="Business.DepartmentRole.SemesterCatalog" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="DepartmentCourseSchedule" source="Business.DepartmentRole.DepartmentCourseSchedule" target="Business.DepartmentRole.CourseOffering" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;CourseOffering&gt;"/>
+    <HasRelation name="teacherCatalog" source="Business.Initialization" target="Business.DepartmentRole.TeacherCatalog" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="Business.DepartmentRole.CourseOfferingCatalog" target="Business.DepartmentRole.CourseOffering" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="departmentCatalog" source="Business.DepartmentCatalog" target="Business.Department" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;Department&gt;"/>
+    <UseRelation source="Business.DepartmentRole.TeacherCatalog" target="Business.DepartmentRole.Teacher" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="Business.UniversityCatalog" target="Business.University" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="Business.CollegeCatalog" target="Business.College" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="universityStudentCatalog" source="Business.University" target="Business.UniversityStudentCatalog" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="courseCatalog" source="Business.DepartmentRole.CourseCatalog" target="Business.DepartmentRole.Course" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;Course&gt;"/>
+    <UseRelation source="Business.University" target="Business.CollegeCatalog" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="Business.CollegeStudentCatalog" target="Business.Student" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="collegecatalog" source="Business.University" target="Business.CollegeCatalog" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="studentCatalog" source="Business.StudentCatalog" target="Business.Student" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;Student&gt;"/>
+    <HasRelation name="courseLoadcatalog" source="Business.Initialization" target="Business.DepartmentRole.CourseLoadCatalog" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="Business.StudentCatalog" target="Business.Student" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="transcriptCatalog" source="Business.DepartmentRole.TranscriptCatalog" target="Business.DepartmentRole.Transcript" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;Transcript&gt;"/>
+    <HasRelation name="roleCatalog" source="Business.DepartmentRole.RoleCatalog" target="Business.DepartmentRole.Role" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;Role&gt;"/>
+    <UseRelation source="Business.DepartmentRole.RoleCatalog" target="Business.DepartmentRole.Role" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="semesterCatalog" source="Business.DepartmentRole.SemesterCatalog" target="Business.DepartmentRole.Semester" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;Semester&gt;"/>
+    <UseRelation source="Business.DepartmentCatalog" target="Business.Department" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="collegeStudentCatalog" source="Business.CollegeStudentCatalog" target="Business.Student" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;Student&gt;"/>
+    <HasRelation name="DepartmentCourseCatalog" source="Business.DepartmentRole.DepartmentCourseCatalog" target="Business.DepartmentRole.Course" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;Course&gt;"/>
+    <UseRelation source="Business.DepartmentRole.TranscriptCatalog" target="Business.DepartmentRole.Transcript" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="departmentStudentCatalog" source="Business.DepartmentStudentCatalog" target="Business.Student" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;Student&gt;"/>
+    <UseRelation source="Business.DepartmentStudentCatalog" target="Business.Student" sourceCardinality="1..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>
