@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="assignment_5">
+  <ClassDiagramComponents>
+    <Class name="City" package="Business" visibility="public" xPosition="20.0" yPosition="173.0">
+      <Fields>
+        <Field name="communityCatalog" type="ArrayList&lt;Community&gt;" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getCommunityCatalog" returnType="ArrayList&lt;Community&gt;" visibility="public"/>
+        <Method name="addCommunity" returnType="Community" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Community" package="Business" visibility="public" xPosition="349.0" yPosition="109.0">
+      <Fields>
+        <Field name="communityID" type="int" visibility="private"/>
+        <Field name="houseCatalog" type="ArrayList&lt;House&gt;" visibility="private"/>
+        <Field name="count" type="int" visibility="private" isStatic="true"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getCommunityID" returnType="int" visibility="public"/>
+        <Method name="setCommunityID" returnType="void" visibility="public">
+          <Argument type="int" name="communityID"/>
+        </Method>
+        <Method name="getHouseCatalog" returnType="ArrayList&lt;House&gt;" visibility="public"/>
+        <Method name="addHouse" returnType="House" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Family" package="Business" visibility="public" xPosition="959.0" yPosition="296.0">
+      <Fields>
+        <Field name="familyID" type="int" visibility="private"/>
+        <Field name="lastName" type="String" visibility="private"/>
+        <Field name="personCatalog" type="ArrayList&lt;Person&gt;" visibility="private"/>
+        <Field name="count" type="int" visibility="private" isStatic="true"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getLastName" returnType="String" visibility="public"/>
+        <Method name="setLastName" returnType="void" visibility="public">
+          <Argument type="String" name="lastName"/>
+        </Method>
+        <Method name="getFamilyID" returnType="int" visibility="public"/>
+        <Method name="setFamilyID" returnType="void" visibility="public">
+          <Argument type="int" name="familyID"/>
+        </Method>
+        <Method name="getPersonCatalog" returnType="ArrayList&lt;Person&gt;" visibility="public"/>
+        <Method name="addPerson" returnType="Person" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="House" package="Business" visibility="public" xPosition="636.0" yPosition="226.0">
+      <Fields>
+        <Field name="houseID" type="int" visibility="private"/>
+        <Field name="familyCatalog" type="ArrayList&lt;Family&gt;" visibility="private"/>
+        <Field name="count" type="int" visibility="private" isStatic="true"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getHouseID" returnType="int" visibility="public"/>
+        <Method name="setHouseID" returnType="void" visibility="public">
+          <Argument type="int" name="houseID"/>
+        </Method>
+        <Method name="getFamilyCatalog" returnType="ArrayList&lt;Family&gt;" visibility="public"/>
+        <Method name="addFamily" returnType="Family" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Person" package="Business" visibility="public" xPosition="1282.0" yPosition="46.0">
+      <Fields>
+        <Field name="personID" type="int" visibility="private"/>
+        <Field name="firstName" type="String" visibility="private"/>
+        <Field name="lastName" type="String" visibility="private"/>
+        <Field name="gender" type="String" visibility="private"/>
+        <Field name="age" type="int" visibility="private"/>
+        <Field name="smoker" type="String" visibility="private"/>
+        <Field name="diabetes" type="String" visibility="private"/>
+        <Field name="mother" type="Person" visibility="private"/>
+        <Field name="father" type="Person" visibility="private"/>
+        <Field name="siblings" type="ArrayList&lt;Person&gt;" visibility="private"/>
+        <Field name="vitalSignCatalog" type="VitalSignCatalog" visibility="private"/>
+        <Field name="count" type="int" visibility="private" isStatic="true"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getGender" returnType="String" visibility="public"/>
+        <Method name="getSmoker" returnType="String" visibility="public"/>
+        <Method name="setSmoker" returnType="void" visibility="public">
+          <Argument type="String" name="smoker"/>
+        </Method>
+        <Method name="getDiabetes" returnType="String" visibility="public"/>
+        <Method name="setDiabetes" returnType="void" visibility="public">
+          <Argument type="String" name="diabetes"/>
+        </Method>
+        <Method name="setGender" returnType="void" visibility="public">
+          <Argument type="String" name="gender"/>
+        </Method>
+        <Method name="getVitalSignCatalog" returnType="VitalSignCatalog" visibility="public"/>
+        <Method name="setVitalSignCatalog" returnType="void" visibility="public">
+          <Argument type="VitalSignCatalog" name="vitalSignCatalog"/>
+        </Method>
+        <Method name="getAge" returnType="int" visibility="public"/>
+        <Method name="setAge" returnType="void" visibility="public">
+          <Argument type="int" name="age"/>
+        </Method>
+        <Method name="getPersonID" returnType="int" visibility="public"/>
+        <Method name="setPersonID" returnType="void" visibility="public">
+          <Argument type="int" name="personID"/>
+        </Method>
+        <Method name="getFirstName" returnType="String" visibility="public"/>
+        <Method name="setFirstName" returnType="void" visibility="public">
+          <Argument type="String" name="firstName"/>
+        </Method>
+        <Method name="getLastName" returnType="String" visibility="public"/>
+        <Method name="setLastName" returnType="void" visibility="public">
+          <Argument type="String" name="lastName"/>
+        </Method>
+        <Method name="getMother" returnType="Person" visibility="public"/>
+        <Method name="setMother" returnType="void" visibility="public">
+          <Argument type="Person" name="mother"/>
+        </Method>
+        <Method name="getFather" returnType="Person" visibility="public"/>
+        <Method name="setFather" returnType="void" visibility="public">
+          <Argument type="Person" name="father"/>
+        </Method>
+        <Method name="getSiblings" returnType="ArrayList&lt;Person&gt;" visibility="public"/>
+        <Method name="addSibling" returnType="void" visibility="public">
+          <Argument type="Person" name="sibling"/>
+        </Method>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="VitalSign" package="Business" visibility="public" xPosition="1733.0" yPosition="355.0">
+      <Fields>
+        <Field name="totalCholesterol" type="int" visibility="private"/>
+        <Field name="HDLCholesterol" type="int" visibility="private"/>
+        <Field name="LDLCholesterol" type="int" visibility="private"/>
+        <Field name="Systolic" type="int" visibility="private"/>
+        <Field name="Diastolic" type="int" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="getLDLCholesterol" returnType="int" visibility="public"/>
+        <Method name="setLDLCholesterol" returnType="void" visibility="public">
+          <Argument type="int" name="LDLCholesterol"/>
+        </Method>
+        <Method name="getTotalCholesterol" returnType="int" visibility="public"/>
+        <Method name="setTotalCholesterol" returnType="void" visibility="public">
+          <Argument type="int" name="totalCholesterol"/>
+        </Method>
+        <Method name="getHDLCholesterol" returnType="int" visibility="public"/>
+        <Method name="setHDLCholesterol" returnType="void" visibility="public">
+          <Argument type="int" name="HDLCholesterol"/>
+        </Method>
+        <Method name="getSystolic" returnType="int" visibility="public"/>
+        <Method name="setSystolic" returnType="void" visibility="public">
+          <Argument type="int" name="Systolic"/>
+        </Method>
+        <Method name="getDiastolic" returnType="int" visibility="public"/>
+        <Method name="setDiastolic" returnType="void" visibility="public">
+          <Argument type="int" name="Diastolic"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="VitalSignCatalog" package="Business" visibility="public" xPosition="1741.0" yPosition="46.0">
+      <Fields>
+        <Field name="vitalSignCatalog" type="ArrayList&lt;VitalSign&gt;" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getVitalSignCatalog" returnType="ArrayList&lt;VitalSign&gt;" visibility="public"/>
+        <Method name="addVitalSign" returnType="VitalSign" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="GenerateData" package="Tools" visibility="public" xPosition="-36.0" yPosition="417.0">
+      <Fields/>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="generateString" returnType="String" visibility="public">
+          <Argument type="Random" name="rng"/>
+          <Argument type="String" name="characters"/>
+          <Argument type="int" name="length"/>
+        </Method>
+        <Method name="randInt" returnType="int" visibility="public">
+          <Argument type="int" name="min"/>
+          <Argument type="int" name="max"/>
+        </Method>
+        <Method name="riskCalculate" returnType="int" visibility="public">
+          <Argument type="String" name="gender"/>
+          <Argument type="int" name="age"/>
+          <Argument type="int" name="totalC"/>
+          <Argument type="int" name="hdlC"/>
+          <Argument type="int" name="ldlC"/>
+          <Argument type="int" name="sysBP"/>
+          <Argument type="int" name="diaBP"/>
+          <Argument type="String" name="smoke"/>
+          <Argument type="String" name="diabetes"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="CalculateRiskScore" package="UserInterface" visibility="public" xPosition="328.0" yPosition="706.0">
+      <Fields>
+        <Field name="generateData" type="GenerateData" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getRiskScore" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Initialize" package="UserInterface" visibility="public" xPosition="923.0" yPosition="0.0">
+      <Fields>
+        <Field name="city" type="City" visibility="private"/>
+        <Field name="generateData" type="GenerateData" visibility="private"/>
+        <Field name="rng" type="Random" visibility="private"/>
+        <Field name="vitalSignCatalog" type="VitalSignCatalog" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="City" name="city"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="iniVitalSign" returnType="void" visibility="public">
+          <Argument type="Person" name="person"/>
+        </Method>
+        <Method name="iniData" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="MainClass" package="UserInterface" visibility="public" xPosition="20.0" yPosition="726.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Report" package="UserInterface" visibility="public" xPosition="719.0" yPosition="606.0">
+      <Fields>
+        <Field name="city" type="City" visibility="private"/>
+        <Field name="generateData" type="GenerateData" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="reportCity" returnType="void" visibility="public"/>
+        <Method name="getMenNum" returnType="int" visibility="private"/>
+        <Method name="getWomenNum" returnType="int" visibility="private"/>
+        <Method name="getMenHaveRisk" returnType="int" visibility="private"/>
+        <Method name="getWomenHaveRisk" returnType="int" visibility="private"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <UseRelation source="Business.VitalSignCatalog" target="Business.VitalSign" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="familyCatalog" source="Business.House" target="Business.Family" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;Family&gt;"/>
+    <HasRelation name="vitalSignCatalog" source="Business.Person" target="Business.VitalSignCatalog" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="mother" source="Business.Person" target="Business.Person" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="city" source="UserInterface.Report" target="Business.City" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="vitalSignCatalog" source="UserInterface.Initialize" target="Business.VitalSignCatalog" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="vitalSignCatalog" source="Business.VitalSignCatalog" target="Business.VitalSign" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;VitalSign&gt;"/>
+    <UseRelation source="Business.Community" target="Business.House" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="generateData" source="UserInterface.CalculateRiskScore" target="Tools.GenerateData" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="generateData" source="UserInterface.Initialize" target="Tools.GenerateData" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="Business.House" target="Business.Family" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="UserInterface.Initialize" target="Business.Person" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="Business.Family" target="Business.Person" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="communityCatalog" source="Business.City" target="Business.Community" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;Community&gt;"/>
+    <HasRelation name="father" source="Business.Person" target="Business.Person" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="Business.Person" target="Business.Person" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="Business.Person" target="Business.VitalSignCatalog" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="personCatalog" source="Business.Family" target="Business.Person" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;Person&gt;"/>
+    <HasRelation name="siblings" source="Business.Person" target="Business.Person" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;Person&gt;"/>
+    <HasRelation name="city" source="UserInterface.Initialize" target="Business.City" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="houseCatalog" source="Business.Community" target="Business.House" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;House&gt;"/>
+    <HasRelation name="generateData" source="UserInterface.Report" target="Tools.GenerateData" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="Business.City" target="Business.Community" sourceCardinality="1..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>
