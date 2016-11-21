@@ -33,7 +33,7 @@ public class AddUserAccountJPanel extends javax.swing.JPanel {
 
     public void populatePerson() {
         personJCBox.removeAll();
-        for (Person person : business.getEmployeeDirectory().getEmployeeList()) {
+        for (Employee person : business.getEmployeeDirectory().getEmployeeList()) {
             personJCBox.addItem(person);
         }
     }
